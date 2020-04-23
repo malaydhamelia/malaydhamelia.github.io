@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>visualisation on malay dhamelia</title>
+    <link>http://www.malaydhamelia.in/tags/visualisation/</link>
+    <description>Recent content in visualisation on malay dhamelia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 03 Apr 2017 12:13:30 +0530</lastBuildDate>
+    
+	<atom:link href="http://www.malaydhamelia.in/tags/visualisation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Epidemic Informatics: Real time visualisation of epidemics</title>
+      <link>http://www.malaydhamelia.in/work/post-2/</link>
+      <pubDate>Mon, 03 Apr 2017 12:13:30 +0530</pubDate>
+      
+      <guid>http://www.malaydhamelia.in/work/post-2/</guid>
+      <description>Overview Preventing epidemic from occurring and spreading is the one of the major motives of any government health ward. Collecting information about the epidemics is done via manual reporting in the current state. Information about epidemics require faster ways of reporting to take actions and prevent it from spreading. We leveraged the increased usage of smartphone to increase a faster reporting of epidemics in a city.
+We conducted user studies to understand the existing flow of information between entities ranging from the epidemic cell to local foot soldiers over a period of two weeks to design and develop an application that will allow faster reporting with very less cognitive load on the foot soldiers.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ethnography on malay dhamelia</title>
+    <link>http://www.malaydhamelia.in/tags/ethnography/</link>
+    <description>Recent content in Ethnography on malay dhamelia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 01 Aug 2016 12:13:30 +0530</lastBuildDate>
+    
+	<atom:link href="http://www.malaydhamelia.in/tags/ethnography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>User study: Technological opportunities to support kirana stores</title>
+      <link>http://www.malaydhamelia.in/work/post-1/</link>
+      <pubDate>Mon, 01 Aug 2016 12:13:30 +0530</pubDate>
+      
+      <guid>http://www.malaydhamelia.in/work/post-1/</guid>
+      <description>Overview While modern trade has been growing in India over the last 25 years, small grocery stores (also known as kirana shops) continue to have over 90% of the market share. An interesting practice in these stores is that they provide credit to their customers, which is a major draw for some of their loyal customers. However, this practice often leads to a crunch of working capital for the shopkeeper. Could these traditional credit practices be better supported with use of technology?</description>
+    </item>
+    
+  </channel>
+</rss>
