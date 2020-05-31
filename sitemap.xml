@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.malaydhamelia.in/blog/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.malaydhamelia.in/work/</loc>
     <lastmod>2018-06-12T12:13:36+05:30</lastmod>
   </url>
@@ -17,51 +12,15 @@
   </url>
   
   <url>
+    <loc>http://www.malaydhamelia.in/blog/</loc>
+  </url>
+  
+  <url>
     <loc>http://www.malaydhamelia.in/play/</loc>
   </url>
   
   <url>
     <loc>http://www.malaydhamelia.in/publications/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/tags/analysis/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/tags/autoethnography-ish/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/blog/covid-postman/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/tags/lockdown/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/tags/media/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/tags/opinion/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/tags/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
   </url>
   
   <url>
@@ -86,6 +45,16 @@
   
   <url>
     <loc>http://www.malaydhamelia.in/work/post-6/</loc>
+    <lastmod>2018-06-12T12:13:36+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.malaydhamelia.in/</loc>
+    <lastmod>2018-06-12T12:13:36+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.malaydhamelia.in/tags/</loc>
     <lastmod>2018-06-12T12:13:36+05:30</lastmod>
   </url>
   
