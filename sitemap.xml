@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.malaydhamelia.in/blog/</loc>
+    <lastmod>2020-06-30T23:13:30+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.malaydhamelia.in/work/</loc>
     <lastmod>2018-06-12T12:13:36+05:30</lastmod>
   </url>
@@ -12,15 +17,36 @@
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/blog/</loc>
-  </url>
-  
-  <url>
     <loc>http://www.malaydhamelia.in/play/</loc>
   </url>
   
   <url>
     <loc>http://www.malaydhamelia.in/publications/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.malaydhamelia.in/</loc>
+    <lastmod>2020-06-30T23:13:30+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.malaydhamelia.in/tags/meso-blog/</loc>
+    <lastmod>2020-06-30T23:13:30+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.malaydhamelia.in/blog/modernity-music-2/</loc>
+    <lastmod>2020-06-30T23:13:30+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.malaydhamelia.in/tags/</loc>
+    <lastmod>2020-06-30T23:13:30+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.malaydhamelia.in/blog/modernity-music/</loc>
+    <lastmod>2018-06-19T12:13:30+05:30</lastmod>
   </url>
   
   <url>
@@ -45,16 +71,6 @@
   
   <url>
     <loc>http://www.malaydhamelia.in/work/post-6/</loc>
-    <lastmod>2018-06-12T12:13:36+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/</loc>
-    <lastmod>2018-06-12T12:13:36+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/tags/</loc>
     <lastmod>2018-06-12T12:13:36+05:30</lastmod>
   </url>
   
