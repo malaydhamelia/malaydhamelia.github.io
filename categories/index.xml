@@ -38,50 +38,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>fun</title>
-      <link>/categories/fun/</link>
-      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/fun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>/categories/hugo/</link>
-      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>/categories/test/</link>
-      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>boring</title>
-      <link>/categories/boring/</link>
-      <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/boring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>template</title>
-      <link>/categories/template/</link>
-      <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/template/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
