@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Malay Dhamelia</title>
+    <link>/</link>
+    <description>Recent content on Malay Dhamelia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 May 2016 21:48:51 -0700</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I am Malay Dhamelia /&amp;gt; &amp;#8853; / This section is about me, colophon of the site can be found here . I like cats and brutalist designs.
+Academically, I am a PhD student at IDC School of Design, IIT Bombay. I study games and play, in in their enterity. Before this academic adventure, I worked at Tata Research Design and Development Centre (TRDDC) as a Researcher Associate at the Behavioural and Business Sciences division.</description>
+    </item>
+    
+    <item>
+      <title>Colophon</title>
+      <link>/colophon/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/colophon/</guid>
+      <description>Go-Hu-go The website is build using Hugo and Tuftesque. Hugo is a static site generator written in Go. I have used Grav (2017-2019) and WordPress (2013-2017) before switching over to Hugo. Grav being a flat-file CMS, had tremendous build times as I used goDaddy servers to host. The compilation itself took around 30s to 1m. But the major drawbacks were not related to effeciency of compilation, but were functional. One, the pipeline to git was pretty complicated.</description>
+    </item>
+    
+    <item>
+      <title>Now</title>
+      <link>/now/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/now/</guid>
+      <description>It makes sense to have a now page. Earlier I used to have disclaimer in the About section of the site stating that the page has slower updates than happenings of life. Unless updates, this page is what I am doing. For the About website, please have a look at the colophon
+Today is 20th July, 2020.
+Yesterday marked the completion of four months of staying in. After IITB asked students to evacuate the campus, I returned to my place in Rajkot, Gujarat.</description>
+    </item>
+    
+    <item>
+      <title>About This Site</title>
+      <link>/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/page/about/</guid>
+      <description>Hello, I&amp;rsquo;m an example site that uses the Hugo Morphism theme.</description>
+    </item>
+    
+  </channel>
+</rss>
