@@ -3,51 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/analysis/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/autoethnography-ish/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2020/04/19/covid-information-data-visualisations-are-amusements/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/lockdown/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/media/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/opinion/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/wip/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>/about/</loc>
     <lastmod>2016-05-05T21:48:51-07:00</lastmod>
   </url>
@@ -63,6 +18,11 @@
   </url>
   
   <url>
+    <loc>/post/</loc>
+    <lastmod>2015-01-19T23:57:58-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/page/about/</loc>
   </url>
   
@@ -72,6 +32,10 @@
   
   <url>
     <loc>/page/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
