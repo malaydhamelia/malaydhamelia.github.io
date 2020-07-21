@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Malay Dhamelia</title>
-    <link>malaydhamelia.github.io/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Malay Dhamelia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Feb 2016 13:56:01 -0800</lastBuildDate>
     
-	<atom:link href="malaydhamelia.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>latex</title>
-      <link>malaydhamelia.github.io/categories/latex/</link>
+      <link>/categories/latex/</link>
       <pubDate>Sat, 20 Feb 2016 13:56:01 -0800</pubDate>
       
-      <guid>malaydhamelia.github.io/categories/latex/</guid>
+      <guid>/categories/latex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mathjax</title>
-      <link>malaydhamelia.github.io/categories/mathjax/</link>
+      <link>/categories/mathjax/</link>
       <pubDate>Sat, 20 Feb 2016 13:56:01 -0800</pubDate>
       
-      <guid>malaydhamelia.github.io/categories/mathjax/</guid>
+      <guid>/categories/mathjax/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tufte-css</title>
-      <link>malaydhamelia.github.io/categories/tufte-css/</link>
+      <link>/categories/tufte-css/</link>
       <pubDate>Sat, 20 Feb 2016 13:56:01 -0800</pubDate>
       
-      <guid>malaydhamelia.github.io/categories/tufte-css/</guid>
+      <guid>/categories/tufte-css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fun</title>
-      <link>malaydhamelia.github.io/categories/fun/</link>
+      <link>/categories/fun/</link>
       <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>malaydhamelia.github.io/categories/fun/</guid>
+      <guid>/categories/fun/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>malaydhamelia.github.io/categories/hugo/</link>
+      <link>/categories/hugo/</link>
       <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>malaydhamelia.github.io/categories/hugo/</guid>
+      <guid>/categories/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>test</title>
-      <link>malaydhamelia.github.io/categories/test/</link>
+      <link>/categories/test/</link>
       <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>malaydhamelia.github.io/categories/test/</guid>
+      <guid>/categories/test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>boring</title>
-      <link>malaydhamelia.github.io/categories/boring/</link>
+      <link>/categories/boring/</link>
       <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>malaydhamelia.github.io/categories/boring/</guid>
+      <guid>/categories/boring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>template</title>
-      <link>malaydhamelia.github.io/categories/template/</link>
+      <link>/categories/template/</link>
       <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>malaydhamelia.github.io/categories/template/</guid>
+      <guid>/categories/template/</guid>
       <description></description>
     </item>
     
