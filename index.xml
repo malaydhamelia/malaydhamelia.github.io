@@ -30,28 +30,6 @@
     </item>
     
     <item>
-      <title>Hugo-Tufte Features</title>
-      <link>/2016/02/20/hugo-tufte-features/</link>
-      <pubDate>Sat, 20 Feb 2016 13:56:01 -0800</pubDate>
-      
-      <guid>/2016/02/20/hugo-tufte-features/</guid>
-      <description>&lt;p&gt;This is a quick demonstration post.  It serves as an example of the features
-of this theme.  One of them is \( \LaTeX \) via MathJax.
-
-
-  &lt;section&gt;
-
-    
-&lt;/p&gt;
-&lt;h2 id=&#34;a-bit-about-mathematics&#34;&gt;A Bit About Mathematics&lt;/h2&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
-    </item>
-    
-    <item>
       <title>Blockquotes</title>
       <link>/2015/01/19/blockquotes/</link>
       <pubDate>Mon, 19 Jan 2015 23:57:58 -0800</pubDate>
