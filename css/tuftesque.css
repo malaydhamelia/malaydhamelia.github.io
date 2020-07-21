@@ -174,11 +174,12 @@ h1 {
   margin-bottom: 1.5rem;
   font-size: 3rem;
   line-height: 1;
+  color:#000000;
 }
 
 
  h1 a:visited{
-  color: inherit;
+  color: #000000;
 } 
 
 p {
