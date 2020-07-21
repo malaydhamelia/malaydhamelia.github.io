@@ -1,131 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on malay dhamelia</title>
-    <link>http://www.malaydhamelia.in/tags/</link>
-    <description>Recent content in Tags on malay dhamelia</description>
+    <title>Tags on A Hugo website</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 30 Jun 2020 23:13:30 +0530</lastBuildDate>
+    <language>en-us</language>
     
-	<atom:link href="http://www.malaydhamelia.in/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>meso-blog</title>
-      <link>http://www.malaydhamelia.in/tags/meso-blog/</link>
-      <pubDate>Tue, 30 Jun 2020 23:13:30 +0530</pubDate>
-      
-      <guid>http://www.malaydhamelia.in/tags/meso-blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>design for behaviour change</title>
-      <link>http://www.malaydhamelia.in/tags/design-for-behaviour-change/</link>
-      <pubDate>Tue, 12 Jun 2018 12:13:36 +0530</pubDate>
-      
-      <guid>http://www.malaydhamelia.in/tags/design-for-behaviour-change/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>design thesis</title>
-      <link>http://www.malaydhamelia.in/tags/design-thesis/</link>
-      <pubDate>Tue, 12 Jun 2018 12:13:36 +0530</pubDate>
-      
-      <guid>http://www.malaydhamelia.in/tags/design-thesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HCI4D</title>
-      <link>http://www.malaydhamelia.in/tags/hci4d/</link>
-      <pubDate>Tue, 12 Jun 2018 12:13:36 +0530</pubDate>
-      
-      <guid>http://www.malaydhamelia.in/tags/hci4d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>interfaces for behaviour change</title>
-      <link>http://www.malaydhamelia.in/tags/interfaces-for-behaviour-change/</link>
-      <pubDate>Tue, 12 Jun 2018 12:13:36 +0530</pubDate>
-      
-      <guid>http://www.malaydhamelia.in/tags/interfaces-for-behaviour-change/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>User Study</title>
-      <link>http://www.malaydhamelia.in/tags/user-study/</link>
-      <pubDate>Tue, 12 Jun 2018 12:13:36 +0530</pubDate>
-      
-      <guid>http://www.malaydhamelia.in/tags/user-study/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fuzzy card sorting</title>
-      <link>http://www.malaydhamelia.in/tags/fuzzy-card-sorting/</link>
-      <pubDate>Thu, 28 Dec 2017 12:13:35 +0530</pubDate>
-      
-      <guid>http://www.malaydhamelia.in/tags/fuzzy-card-sorting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ML</title>
-      <link>http://www.malaydhamelia.in/tags/ml/</link>
-      <pubDate>Thu, 28 Dec 2017 12:13:35 +0530</pubDate>
-      
-      <guid>http://www.malaydhamelia.in/tags/ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>http://www.malaydhamelia.in/tags/research/</link>
-      <pubDate>Thu, 28 Dec 2017 12:13:35 +0530</pubDate>
-      
-      <guid>http://www.malaydhamelia.in/tags/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Interaction design</title>
-      <link>http://www.malaydhamelia.in/tags/interaction-design/</link>
-      <pubDate>Sun, 04 Jun 2017 12:13:38 +0530</pubDate>
-      
-      <guid>http://www.malaydhamelia.in/tags/interaction-design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Citizen Sensing</title>
-      <link>http://www.malaydhamelia.in/tags/citizen-sensing/</link>
-      <pubDate>Mon, 03 Apr 2017 12:13:30 +0530</pubDate>
-      
-      <guid>http://www.malaydhamelia.in/tags/citizen-sensing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>visualisation</title>
-      <link>http://www.malaydhamelia.in/tags/visualisation/</link>
-      <pubDate>Mon, 03 Apr 2017 12:13:30 +0530</pubDate>
-      
-      <guid>http://www.malaydhamelia.in/tags/visualisation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ethnography</title>
-      <link>http://www.malaydhamelia.in/tags/ethnography/</link>
-      <pubDate>Mon, 01 Aug 2016 12:13:30 +0530</pubDate>
-      
-      <guid>http://www.malaydhamelia.in/tags/ethnography/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

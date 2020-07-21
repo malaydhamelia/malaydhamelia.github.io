@@ -3,152 +3,115 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.malaydhamelia.in/blog/</loc>
-    <lastmod>2020-06-30T23:13:30+05:30</lastmod>
+    <loc>/2017/10/15/hello-tuftesque/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/work/</loc>
-    <lastmod>2018-06-12T12:13:36+05:30</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/about/</loc>
+    <loc>/2016/12/30/a-plain-markdown-post/</loc>
+    <lastmod>2016-12-30T21:49:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/play/</loc>
+    <loc>/</loc>
+    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/publications/</loc>
+    <loc>/about/</loc>
+    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/</loc>
-    <lastmod>2020-06-30T23:13:30+05:30</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2016-02-20T13:56:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/tags/meso-blog/</loc>
-    <lastmod>2020-06-30T23:13:30+05:30</lastmod>
+    <loc>/2016/02/20/hugo-tufte-features/</loc>
+    <lastmod>2016-02-20T13:56:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/blog/modernity-music-2/</loc>
-    <lastmod>2020-06-30T23:13:30+05:30</lastmod>
+    <loc>/categories/latex/</loc>
+    <lastmod>2016-02-20T13:56:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/tags/</loc>
-    <lastmod>2020-06-30T23:13:30+05:30</lastmod>
+    <loc>/categories/mathjax/</loc>
+    <lastmod>2016-02-20T13:56:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/blog/modernity-music/</loc>
-    <lastmod>2018-06-19T12:13:30+05:30</lastmod>
+    <loc>/categories/tufte-css/</loc>
+    <lastmod>2016-02-20T13:56:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/tags/design-for-behaviour-change/</loc>
-    <lastmod>2018-06-12T12:13:36+05:30</lastmod>
+    <loc>/2015/05/15/hide-date/</loc>
+    <lastmod>2015-05-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/tags/design-thesis/</loc>
-    <lastmod>2018-06-12T12:13:36+05:30</lastmod>
+    <loc>/2015/01/19/blockquotes/</loc>
+    <lastmod>2015-01-19T23:57:58-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/tags/hci4d/</loc>
-    <lastmod>2018-06-12T12:13:36+05:30</lastmod>
+    <loc>/2015/01/01/lorem-ipsum/</loc>
+    <lastmod>2015-01-01T13:09:13-06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/tags/interfaces-for-behaviour-change/</loc>
-    <lastmod>2018-06-12T12:13:36+05:30</lastmod>
+    <loc>/categories/fun/</loc>
+    <lastmod>2014-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/work/post-6/</loc>
-    <lastmod>2018-06-12T12:13:36+05:30</lastmod>
+    <loc>/categories/hugo/</loc>
+    <lastmod>2014-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/tags/user-study/</loc>
-    <lastmod>2018-06-12T12:13:36+05:30</lastmod>
+    <loc>/2014/03/29/just-another-sample-post/</loc>
+    <lastmod>2014-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/work/post-4/</loc>
-    <lastmod>2017-12-28T12:13:35+05:30</lastmod>
+    <loc>/categories/test/</loc>
+    <lastmod>2014-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/tags/fuzzy-card-sorting/</loc>
-    <lastmod>2017-12-28T12:13:35+05:30</lastmod>
+    <loc>/categories/boring/</loc>
+    <lastmod>2014-03-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/tags/ml/</loc>
-    <lastmod>2017-12-28T12:13:35+05:30</lastmod>
+    <loc>/2014/03/28/first-post/</loc>
+    <lastmod>2014-03-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/tags/research/</loc>
-    <lastmod>2017-12-28T12:13:35+05:30</lastmod>
+    <loc>/categories/template/</loc>
+    <lastmod>2014-03-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/tags/interaction-design/</loc>
-    <lastmod>2017-06-04T12:13:38+05:30</lastmod>
+    <loc>/page/about/</loc>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/work/post-5/</loc>
-    <lastmod>2017-06-04T12:13:38+05:30</lastmod>
+    <loc>/page/</loc>
   </url>
   
   <url>
-    <loc>http://www.malaydhamelia.in/tags/citizen-sensing/</loc>
-    <lastmod>2017-04-03T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/work/post-2/</loc>
-    <lastmod>2017-04-03T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/work/post-3/</loc>
-    <lastmod>2017-04-03T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/tags/visualisation/</loc>
-    <lastmod>2017-04-03T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/tags/ethnography/</loc>
-    <lastmod>2016-08-01T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/work/post-1/</loc>
-    <lastmod>2016-08-01T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/authors/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.malaydhamelia.in/series/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

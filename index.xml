@@ -1,87 +1,130 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>malay dhamelia</title>
-    <link>http://www.malaydhamelia.in/</link>
-    <description>Recent content on malay dhamelia</description>
+    <title>A Hugo website</title>
+    <link>/</link>
+    <description>Recent content on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 30 Jun 2020 23:13:30 +0530</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 May 2016 21:48:51 -0700</lastBuildDate>
     
-	<atom:link href="http://www.malaydhamelia.in/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Modernity and music</title>
-      <link>http://www.malaydhamelia.in/blog/modernity-music-2/</link>
-      <pubDate>Tue, 30 Jun 2020 23:13:30 +0530</pubDate>
+      <title>Hello Tuftesque</title>
+      <link>/2017/10/15/hello-tuftesque/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.malaydhamelia.in/blog/modernity-music-2/</guid>
-      <description>Two years back around the same time, I had written about how Amit Trivedi and ARR are the faces of Indian modern music. With recent developments about Sonu Nigam&amp;rsquo;s call out about Nepotism and AT releasing &amp;lsquo;Songs of faith&amp;rsquo; and &amp;lsquo;Songs of dance&amp;rsquo; on YT, it becomes imperative to think about modern music in India; only with a stronger backbone than the previous post on similar topic.
-Zygmunt Bauman has done some work on the modernity.</description>
+      <guid>/2017/10/15/hello-tuftesque/</guid>
+      <description>This is an abridged version of the blogpost Introducing The Tuftesque Blogdown Theme on livefreeordichotomize.com.
+Customizing It would be pretty lame if that was it, wouldn’t it? Fear not, you can tinker with it to make it your own.
+Side Notes: We all know why you’re here: the sidenotes. This is rather easy. Just make sure you have the tufte package installed and then, in an inline r chunk, wherever you want to put a side note call the following.</description>
     </item>
     
     <item>
-      <title>Indian Modern Music</title>
-      <link>http://www.malaydhamelia.in/blog/modernity-music/</link>
-      <pubDate>Tue, 19 Jun 2018 12:13:30 +0530</pubDate>
+      <title>A Plain Markdown Post</title>
+      <link>/2016/12/30/a-plain-markdown-post/</link>
+      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
       
-      <guid>http://www.malaydhamelia.in/blog/modernity-music/</guid>
-      <description>With a stimulating read from the Commonweal magazine detailing out the suicide plan of the west, and with a micro-worry about the effect of rainlessness in the central and south-central India, this playlist of A.R Rahman gave a sense of warmth. Reminiscing about his older discography and single pieces like Jiya jale, Tu hi re Thok de killi, Chinnamma Chilakamma, I could see a pattern of experimentation. Radical in his youth, his older songs still resonate with me.</description>
+      <guid>/2016/12/30/a-plain-markdown-post/</guid>
+      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
+ You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
     </item>
     
     <item>
-      <title>Interventions for awareness of noise pollution</title>
-      <link>http://www.malaydhamelia.in/work/post-6/</link>
-      <pubDate>Tue, 12 Jun 2018 12:13:36 +0530</pubDate>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
-      <guid>http://www.malaydhamelia.in/work/post-6/</guid>
-      <description>Abstract Sonic environment consisting of various sounds ranging from music and natural sounds to artificial sounds is an integral part of any geography. It is a reflection of people living in the location as well as an influencer of culture in that location. To assess the perception of a person or people of context offered by that location, a soundscape assessment is performed that majorly involve likert based questions for pleasantness, annoyance, appropriateness and so forth.</description>
+      <guid>/about/</guid>
+      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
     </item>
     
     <item>
-      <title>Cultural Domain Analysis for Soundscape Assessment</title>
-      <link>http://www.malaydhamelia.in/work/post-4/</link>
-      <pubDate>Thu, 28 Dec 2017 12:13:35 +0530</pubDate>
+      <title>Hugo-Tufte Features</title>
+      <link>/2016/02/20/hugo-tufte-features/</link>
+      <pubDate>Sat, 20 Feb 2016 13:56:01 -0800</pubDate>
       
-      <guid>http://www.malaydhamelia.in/work/post-4/</guid>
-      <description>Abstract Sonic environment consisting of various sounds ranging from music and natural sounds to artificial sounds is an integral part of any geography. It is a reflection of people living in the location as well as an influencer of culture in that location. To assess the perception of a person or people of context offered by that location, a soundscape assessment is performed that majorly involve likert based questions for pleasantness, annoyance, appropriateness and so forth.</description>
+      <guid>/2016/02/20/hugo-tufte-features/</guid>
+      <description>&lt;p&gt;This is a quick demonstration post.  It serves as an example of the features
+of this theme.  One of them is \( \LaTeX \) via MathJax.
+
+
+  &lt;section&gt;
+
+    
+&lt;/p&gt;
+&lt;h2 id=&#34;a-bit-about-mathematics&#34;&gt;A Bit About Mathematics&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
-      <title>Interventions to change handwashing behaviour</title>
-      <link>http://www.malaydhamelia.in/work/post-5/</link>
-      <pubDate>Sun, 04 Jun 2017 12:13:38 +0530</pubDate>
+      <title>Hide Date</title>
+      <link>/2015/05/15/hide-date/</link>
+      <pubDate>Fri, 15 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.malaydhamelia.in/work/post-5/</guid>
-      <description>Abstract Hands come in contact with a variety of surfaces and fluids. This makes hands, a primary vector of many communicable diseases. Acute diarrhoeal diseases, acute respiratory diseases can be prevented by a simple habit of washing hands at appropriate times. This habit is very essential for households of urban slums and rural areas since the surrounding is an ideal hotbed for pathogens. The effect of hand washing is acknowledged by medical experts and the world health organisation (WHO).</description>
+      <guid>/2015/05/15/hide-date/</guid>
+      <description>Here is an example post where the date set, but hidden from display.
+Moreover, the reading time is also hidden.</description>
     </item>
     
     <item>
-      <title>Epidemic Informatics: Real time visualisation of epidemics</title>
-      <link>http://www.malaydhamelia.in/work/post-2/</link>
-      <pubDate>Mon, 03 Apr 2017 12:13:30 +0530</pubDate>
+      <title>Blockquotes</title>
+      <link>/2015/01/19/blockquotes/</link>
+      <pubDate>Mon, 19 Jan 2015 23:57:58 -0800</pubDate>
       
-      <guid>http://www.malaydhamelia.in/work/post-2/</guid>
-      <description>Overview Preventing epidemic from occurring and spreading is the one of the major motives of any government health ward. Collecting information about the epidemics is done via manual reporting in the current state. Information about epidemics require faster ways of reporting to take actions and prevent it from spreading. We leveraged the increased usage of smartphone to increase a faster reporting of epidemics in a city.
-We conducted user studies to understand the existing flow of information between entities ranging from the epidemic cell to local foot soldiers over a period of two weeks to design and develop an application that will allow faster reporting with very less cognitive load on the foot soldiers.</description>
+      <guid>/2015/01/19/blockquotes/</guid>
+      <description>&lt;p&gt;Below is a blockquote.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
+&lt;p&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
-      <title>Pulse: Crowd sensing for smarter cities</title>
-      <link>http://www.malaydhamelia.in/work/post-3/</link>
-      <pubDate>Mon, 03 Apr 2017 12:13:30 +0530</pubDate>
+      <title>Lorem Ipsum</title>
+      <link>/2015/01/01/lorem-ipsum/</link>
+      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
       
-      <guid>http://www.malaydhamelia.in/work/post-3/</guid>
-      <description>Overview The advent of smart cities has increased the demand for agile and effective governance. This paper presents a prototype at the proof of concept stage, called “Pulse”. The system comprises of – a mobile app for citizens to submit feedback, a web dashboard for district administrators and government bodies to push close-ended questions based on locality, gender, age group and time, and a network of eddystone beacons that pushes close-ended questions about urban spaces, creating a hyperlocal crowdsensing framework in the Indian context.</description>
+      <guid>/2015/01/01/lorem-ipsum/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
-      <title>User study: Technological opportunities to support kirana stores</title>
-      <link>http://www.malaydhamelia.in/work/post-1/</link>
-      <pubDate>Mon, 01 Aug 2016 12:13:30 +0530</pubDate>
+      <title>Just another sample post</title>
+      <link>/2014/03/29/just-another-sample-post/</link>
+      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://www.malaydhamelia.in/work/post-1/</guid>
-      <description>Overview While modern trade has been growing in India over the last 25 years, small grocery stores (also known as kirana shops) continue to have over 90% of the market share. An interesting practice in these stores is that they provide credit to their customers, which is a major draw for some of their loyal customers. However, this practice often leads to a crunch of working capital for the shopkeeper. Could these traditional credit practices be better supported with use of technology?</description>
+      <guid>/2014/03/29/just-another-sample-post/</guid>
+      <description>First Heading Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+Sub Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, perferendis saepe voluptatem a nesciunt architecto voluptas deleniti dolor tempora quasi quidem odit rem fugit magnam minima quam dolores vel id?
+Conclusion Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>/2014/03/28/first-post/</link>
+      <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/03/28/first-post/</guid>
+      <description>Sample Post 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>About This Site</title>
+      <link>/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/page/about/</guid>
+      <description>Hello, I&amp;rsquo;m an example site that uses the Hugo Morphism theme.</description>
     </item>
     
   </channel>

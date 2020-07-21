@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>latex on A Hugo website</title>
+    <link>/categories/latex/</link>
+    <description>Recent content in latex on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Feb 2016 13:56:01 -0800</lastBuildDate>
+    
+	<atom:link href="/categories/latex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo-Tufte Features</title>
+      <link>/2016/02/20/hugo-tufte-features/</link>
+      <pubDate>Sat, 20 Feb 2016 13:56:01 -0800</pubDate>
+      
+      <guid>/2016/02/20/hugo-tufte-features/</guid>
+      <description>&lt;p&gt;This is a quick demonstration post.  It serves as an example of the features
+of this theme.  One of them is \( \LaTeX \) via MathJax.
+
+
+  &lt;section&gt;
+
+    
+&lt;/p&gt;
+&lt;h2 id=&#34;a-bit-about-mathematics&#34;&gt;A Bit About Mathematics&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

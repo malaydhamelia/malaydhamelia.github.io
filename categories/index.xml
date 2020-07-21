@@ -1,13 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on malay dhamelia</title>
-    <link>http://www.malaydhamelia.in/categories/</link>
-    <description>Recent content in Categories on malay dhamelia</description>
+    <title>Categories on A Hugo website</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Feb 2016 13:56:01 -0800</lastBuildDate>
     
-	<atom:link href="http://www.malaydhamelia.in/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>latex</title>
+      <link>/categories/latex/</link>
+      <pubDate>Sat, 20 Feb 2016 13:56:01 -0800</pubDate>
+      
+      <guid>/categories/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mathjax</title>
+      <link>/categories/mathjax/</link>
+      <pubDate>Sat, 20 Feb 2016 13:56:01 -0800</pubDate>
+      
+      <guid>/categories/mathjax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tufte-css</title>
+      <link>/categories/tufte-css/</link>
+      <pubDate>Sat, 20 Feb 2016 13:56:01 -0800</pubDate>
+      
+      <guid>/categories/tufte-css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fun</title>
+      <link>/categories/fun/</link>
+      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/fun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>/categories/hugo/</link>
+      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>/categories/test/</link>
+      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>boring</title>
+      <link>/categories/boring/</link>
+      <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/boring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>template</title>
+      <link>/categories/template/</link>
+      <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/template/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
