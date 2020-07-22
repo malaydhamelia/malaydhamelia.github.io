@@ -2,3 +2,9 @@ a {
 	color: black;
 	text-decoration: underline;
 }
+
+.breadcrumb {
+	background: none;
+	padding-left: 9px;
+	color: gray;
+}

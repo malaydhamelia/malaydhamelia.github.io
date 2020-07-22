@@ -12,13 +12,33 @@
     
     
     <item>
+      <title>Now</title>
+      <link>/now/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/now/</guid>
+      <description>It makes sense to have a now page. Earlier I used to have disclaimer in the About section of the site stating that the page has slower updates than happenings of life. Unless updates, this page is what I am doing. For the About website, please have a look at the colophon
+Today is 20th July, 2020.
+Yesterday marked the completion of four months of staying in. After IITB asked students to evacuate the campus, I returned to my place in Rajkot, Gujarat.</description>
+    </item>
+    
+    <item>
+      <title>Laughter is vital</title>
+      <link>/bfm/aeon-laughter/</link>
+      <pubDate>Wed, 22 Jul 2020 23:10:14 +0530</pubDate>
+      
+      <guid>/bfm/aeon-laughter/</guid>
+      <description>Summary&amp;ndash;The article &amp;#8853; The article is originally published in Aeon by Emily Herring   talks about the necessary conditions of comedy (implied to laughter) as per Henri Bergson&amp;rsquo;s leitmotiv of humor. It begins with Henri&amp;rsquo;s three conditions essential for laughter to emerge: humans only laugh at human-like attributes, emotions are foe of laughter, and laughter needs a social echo. The article then takes a steep jump in time where Bergson&amp;rsquo;s discovery of letimotiv of laughter is described.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
       <guid>/about/</guid>
-      <description>I am Malay Dhamelia /&amp;gt; &amp;#8853; / This section is about me, colophon of the site can be found here . I like cats and brutalist designs.
-Academically, I am a PhD student at IDC School of Design, IIT Bombay. I study games and play, in in their enterity. Before this academic adventure, I worked at Tata Research Design and Development Centre (TRDDC) as a Researcher Associate at the Behavioural and Business Sciences division.</description>
+      <description>I am Malay Dhamelia /1 &amp;#8853; 1/ This section is about me, colophon of the site can be found here . I like cats and brutalist designs.
+Academically, I am a PhD student at IDC School of Design, IIT Bombay. I study games and play, in in their enterity. Before this academic adventure, I worked at Tata Research Design and Development Centre (TRDDC) as a Researcher Associate at the Behavioural and Business Sciences division /2 &amp;#8853; 2/ To know more about what I have done, please refer to my CV here .</description>
     </item>
     
     <item>
@@ -31,14 +51,57 @@ Academically, I am a PhD student at IDC School of Design, IIT Bombay. I study ga
     </item>
     
     <item>
-      <title>Now</title>
-      <link>/now/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      <title>Lorem Ipsum of bfm</title>
+      <link>/play/auto/</link>
+      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
       
-      <guid>/now/</guid>
-      <description>It makes sense to have a now page. Earlier I used to have disclaimer in the About section of the site stating that the page has slower updates than happenings of life. Unless updates, this page is what I am doing. For the About website, please have a look at the colophon
-Today is 20th July, 2020.
-Yesterday marked the completion of four months of staying in. After IITB asked students to evacuate the campus, I returned to my place in Rajkot, Gujarat.</description>
+      <guid>/play/auto/</guid>
+      <description>Lorem ipsum , hope it works dolor sit amet autho, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Lorem Ipsum of bfm</title>
+      <link>/publications/auto/</link>
+      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      
+      <guid>/publications/auto/</guid>
+      <description>Lorem ipsum , hope it works dolor sit amet autho, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Lorem Ipsum of bfm</title>
+      <link>/work/auto/</link>
+      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      
+      <guid>/work/auto/</guid>
+      <description>Lorem ipsum , hope it works dolor sit amet autho, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Lorem Ipsum of bfm 2</title>
+      <link>/play/auto2/</link>
+      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      
+      <guid>/play/auto2/</guid>
+      <description>Lorem ipsum , hope it works dolor sit amet2, cons autho ectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Lorem Ipsum of bfm 2</title>
+      <link>/publications/auto2/</link>
+      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      
+      <guid>/publications/auto2/</guid>
+      <description>Lorem ipsum , hope it works dolor sit amet2, cons autho ectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Lorem Ipsum of bfm 2</title>
+      <link>/work/auto2/</link>
+      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      
+      <guid>/work/auto2/</guid>
+      <description>Lorem ipsum , hope it works dolor sit amet2, cons autho ectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
