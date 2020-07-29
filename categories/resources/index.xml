@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>resources on Malay Dhamelia</title>
+    <link>/categories/resources/</link>
+    <description>Recent content in resources on Malay Dhamelia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Resources to hack the resources workflow</title>
+      <link>/2020/07/29/resources-to-hack-the-resources-workflow/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/29/resources-to-hack-the-resources-workflow/</guid>
+      <description>ChangeLog: 29-Jul-2020: Added connectedpapers.com 14-Jul-2020: Added Tiddlywiki 14-Mar-2020: Highly.co status as defunct. Twitter acquired [highly.com](https://techcrunch.com/2019/04/17/twitter-highly/) I am a clumsy being. I read a lot of things without organising them and hence I forget things adn remember it in fragments. Hence, I made a list of research online-tools that help researchers that help in conducting research systematically. The list is, I think well tagged, and sortable.
+List of research tools (made in Notion) In case you want to contribute to the list, let me to by email.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -28,8 +28,63 @@
   </url>
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/list/</loc>
+    <lastmod>2020-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/research/</loc>
+    <lastmod>2020-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/resources/</loc>
+    <lastmod>2020-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/07/29/resources-to-hack-the-resources-workflow/</loc>
+    <lastmod>2020-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/bfm/aeon-laughter/</loc>
     <lastmod>2020-07-22T23:10:14+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/behavior-change/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/design/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/08/26/is-behaviour-change-a-wicked-problem/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/reflections/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/10/15/hello-tuftesque/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -79,10 +134,6 @@
   
   <url>
     <loc>/page/about/</loc>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
   </url>
   
   <url>

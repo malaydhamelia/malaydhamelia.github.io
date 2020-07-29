@@ -23,12 +23,42 @@ Yesterday marked the completion of four months of staying in. After IITB asked s
     </item>
     
     <item>
+      <title>Resources to hack the resources workflow</title>
+      <link>/2020/07/29/resources-to-hack-the-resources-workflow/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/29/resources-to-hack-the-resources-workflow/</guid>
+      <description>ChangeLog: 29-Jul-2020: Added connectedpapers.com 14-Jul-2020: Added Tiddlywiki 14-Mar-2020: Highly.co status as defunct. Twitter acquired [highly.com](https://techcrunch.com/2019/04/17/twitter-highly/) I am a clumsy being. I read a lot of things without organising them and hence I forget things adn remember it in fragments. Hence, I made a list of research online-tools that help researchers that help in conducting research systematically. The list is, I think well tagged, and sortable.
+List of research tools (made in Notion) In case you want to contribute to the list, let me to by email.</description>
+    </item>
+    
+    <item>
       <title>Laughter is vital</title>
       <link>/bfm/aeon-laughter/</link>
       <pubDate>Wed, 22 Jul 2020 23:10:14 +0530</pubDate>
       
       <guid>/bfm/aeon-laughter/</guid>
       <description>Summary&amp;ndash;The article &amp;#8853; The article is originally published in Aeon by Emily Herring   talks about the necessary conditions of comedy (implied to laughter) as per Henri Bergson&amp;rsquo;s leitmotiv of humor. It begins with Henri&amp;rsquo;s three conditions essential for laughter to emerge: humans only laugh at human-like attributes, emotions are foe of laughter, and laughter needs a social echo. The article then takes a steep jump in time where Bergson&amp;rsquo;s discovery of letimotiv of laughter is described.</description>
+    </item>
+    
+    <item>
+      <title>Is Behaviour change a wicked problem?</title>
+      <link>/2018/08/26/is-behaviour-change-a-wicked-problem/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/26/is-behaviour-change-a-wicked-problem/</guid>
+      <description>Context or when this blog comes from? June 26th, 2018 is when I defended my Master&amp;rsquo;s thesis. The topic was chosen with a hope to do something practically impactful in the domain of behaviour change. So, I had chosen both of my projects (MDP2 and MDP3) in the domain of behaviour change /1 &amp;#8853; MDP = Masters Design Project. MDP2 was &#34;Design interventions for improving handwashing behaviour; MDP3 was &#34;Design interventions for raising awareness of sound pollution&#34;</description>
+    </item>
+    
+    <item>
+      <title>Hello Tuftesque</title>
+      <link>/2017/10/15/hello-tuftesque/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/10/15/hello-tuftesque/</guid>
+      <description>This is an abridged version of the blogpost Introducing The Tuftesque Blogdown Theme on livefreeordichotomize.com.
+Customizing It would be pretty lame if that was it, wouldn’t it? Fear not, you can tinker with it to make it your own.
+Side Notes: We all know why you’re here: the sidenotes. This is rather easy. Just make sure you have the tufte package installed and then, in an inline r chunk, wherever you want to put a side note call the following.</description>
     </item>
     
     <item>
