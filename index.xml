@@ -51,17 +51,6 @@ List of research tools (made in Notion) In case you want to contribute to the li
     </item>
     
     <item>
-      <title>Hello Tuftesque</title>
-      <link>/2017/10/15/hello-tuftesque/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/10/15/hello-tuftesque/</guid>
-      <description>This is an abridged version of the blogpost Introducing The Tuftesque Blogdown Theme on livefreeordichotomize.com.
-Customizing It would be pretty lame if that was it, wouldn’t it? Fear not, you can tinker with it to make it your own.
-Side Notes: We all know why you’re here: the sidenotes. This is rather easy. Just make sure you have the tufte package installed and then, in an inline r chunk, wherever you want to put a side note call the following.</description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
