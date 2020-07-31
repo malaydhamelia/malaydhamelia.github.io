@@ -63,43 +63,23 @@
   </url>
   
   <url>
-    <loc>/tags/analysis/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
+    <loc>/categories/behavior-change/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/autoethnography-ish/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
+    <loc>/categories/design/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2020/04/19/covid-information-data-visualisations-are-amusements/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
+    <loc>/2018/08/26/is-behaviour-change-a-wicked-problem/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/lockdown/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/media/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/opinion/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/wip/</loc>
-    <lastmod>2020-04-19T12:13:30+05:30</lastmod>
+    <loc>/categories/reflections/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -153,6 +133,10 @@
   
   <url>
     <loc>/page/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
