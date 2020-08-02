@@ -6,10 +6,37 @@
     <description>Recent content in Categories on Malay Dhamelia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>graphic</title>
+      <link>/categories/graphic/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/graphic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>humor</title>
+      <link>/categories/humor/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/humor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quirk</title>
+      <link>/categories/quirk/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/quirk/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>list</title>

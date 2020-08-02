@@ -29,16 +29,36 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-07-29T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/list/</loc>
-    <lastmod>2020-07-29T00:00:00+00:00</lastmod>
+    <loc>/categories/graphic/</loc>
+    <lastmod>2020-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/humor/</loc>
+    <lastmod>2020-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/08/02/kasa-kaay/</loc>
+    <lastmod>2020-08-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
+    <lastmod>2020-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/quirk/</loc>
+    <lastmod>2020-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/list/</loc>
     <lastmod>2020-07-29T00:00:00+00:00</lastmod>
   </url>
   
