@@ -20,5 +20,17 @@
       <description>ChangeLog: 29-Jul-2020: Added connectedpapers.com 14-Jul-2020: Added Tiddlywiki 14-Mar-2020: Highly.co status as defunct. Twitter acquired highly.co (https://techcrunch.com/2019/04/17/twitter-highly/) 19-August-2019: Made the list I am a clumsy being. I read a lot of things without organising them and hence I forget things adn remember it in fragments. Hence, I made a list of research online-tools that help researchers that help in conducting research systematically. The list is, I think well tagged, and sortable.</description>
     </item>
     
+    <item>
+      <title>Research from IDC</title>
+      <link>/2020/02/29/research-from-idc/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/02/29/research-from-idc/</guid>
+      <description>IDC completed 50 years in 2019. The celebration was ceremonious. Incidentally, I re-joined IDC as a PhD student with Prof Girish. I thought of contributing to the celebration by analysing research contributed by IDC to different domains. It started out as an idea during one of my conversations with Prof Anirudha.
+{{ if .Params.toc }}
+The post is structured as follows:
+ Why to look at the history of research? Ways to look at the research of an organisation?</description>
+    </item>
+    
   </channel>
 </rss>

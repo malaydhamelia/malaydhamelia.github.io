@@ -83,12 +83,22 @@
   </url>
   
   <url>
-    <loc>/categories/behavior-change/</loc>
-    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+    <loc>/categories/analysis/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/design/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/02/29/research-from-idc/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/behavior-change/</loc>
     <lastmod>2018-08-26T00:00:00+00:00</lastmod>
   </url>
   

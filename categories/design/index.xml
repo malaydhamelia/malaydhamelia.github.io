@@ -6,10 +6,22 @@
     <description>Recent content in design on Malay Dhamelia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Research from IDC</title>
+      <link>/2020/02/29/research-from-idc/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/02/29/research-from-idc/</guid>
+      <description>IDC completed 50 years in 2019. The celebration was ceremonious. Incidentally, I re-joined IDC as a PhD student with Prof Girish. I thought of contributing to the celebration by analysing research contributed by IDC to different domains. It started out as an idea during one of my conversations with Prof Anirudha.
+{{ if .Params.toc }}
+The post is structured as follows:
+ Why to look at the history of research? Ways to look at the research of an organisation?</description>
+    </item>
     
     <item>
       <title>Is Behaviour change a wicked problem?</title>
