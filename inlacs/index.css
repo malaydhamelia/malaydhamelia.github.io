@@ -14,8 +14,8 @@
 
 .one {
     display: block;
-    width: 400px; 
-    height: 75px;
+    width: 240px; 
+    height: 168px;
     margin-left:50px;
     margin-top:140px;
     background: url(1.gif) 0 0 no-repeat;
@@ -30,7 +30,7 @@
     width: 400px; 
     height: 120px;
     margin-right:50px;
-    margin-top:-40px;
+    margin-top:-380px;
     background: url(2.gif) 0 0 no-repeat;
     background-size: 100%;
     animation: like-gif steps(12) 1s infinite both;
@@ -43,9 +43,22 @@
     width: 120px; 
     height: 600px;
     margin-left: 50px;
-    margin-top:-150px;
+    margin-top:-50px;
     background: url(3.gif) 0 0 no-repeat;
     background-size: 600%;
+    animation: like-gif steps(12) 1s infinite both;
+
+}
+
+.five {
+    display: block;
+    width: 502px; 
+    height: 238px;
+    padding:30px;
+    margin-left: 50px;
+    margin-top:50px;
+    background: url(5.gif) 0 0 no-repeat;
+    background-size: 100%;
     animation: like-gif steps(12) 1s infinite both;
 
 }
@@ -96,8 +109,17 @@
 .s1 {
     display:inline-flex;
    width: 200px;
+   font-style: italic;
     margin-left:200px;
     padding-top: 20px;
+}
+
+.s2 {
+    display:block;
+   width: 200px;
+   font-style: italic;
+    margin-right:200px;
+    padding-top: 140px;
 }
 
 .pause {
