@@ -1,0 +1,185 @@
+.news {
+    display: block;
+    width: 1200px; 
+    height: 614px;
+    margin:0 auto;
+    background: url(8.gif) 0 0 no-repeat;
+    background-size: 100%;
+    animation: like-gif steps(12) 1s infinite both;
+    padding-top: 150px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    z-index: 1;
+}
+
+.one {
+    position: absolute;
+    display: block;
+    width: 240px; 
+    height: 168px;
+    /* margin-left:50px;
+    margin-top:1400px; */
+    /* background: url(1.gif) 0 0 no-repeat; */
+    background-size: 200%;
+    animation: like-gif steps(12) 1s infinite both;
+}
+
+.rect {
+    position: relative;
+    display: block;
+    width: 285px; 
+    height: 168px;
+    /* background: url(example_gifs/bg.svg);    */ 
+    z-index: -1; 
+    padding-bottom: 1400px;  
+}
+
+.two {
+    display: block;
+    width: 400px; 
+    height: 120px;
+    margin-right:50px;
+    margin-top:-580px;
+    background: url(2.gif) 0 0 no-repeat;
+    background-size: 100%;
+    animation: like-gif steps(12) 1s infinite both;
+
+
+}
+
+.three {
+    display: block;
+    width: 120px; 
+    height: 600px;
+    margin-left: 50px;
+    margin-top:-50px;
+    background: url(3.gif) 0 0 no-repeat;
+    background-size: 600%;
+    animation: like-gif steps(12) 1s infinite both;
+
+}
+
+.five {
+    display: block;
+    width: 502px; 
+    height: 238px;
+    padding:30px;
+    margin-left: 50px;
+    margin-top:50px;
+    background: url(5.gif) 0 0 no-repeat;
+    background-size: 100%;
+    animation: like-gif steps(12) 1s infinite both;
+
+}
+.logo {
+    display: block;
+    position: absolute;
+    width: 300px; 
+    height: 200px;
+    margin-left:50px;
+    background: url(bn.jpg) 0 0 no-repeat;
+    z-index: 3;
+    top: 430%;
+}
+.poetry {
+    display: block;
+    width: 425px; 
+    height: 616px;
+    margin-left:50px;
+    background: url(6.gif) 0 0 no-repeat;
+    background-size: 100%;
+    animation: like-gif steps(12) 1s infinite both;
+    margin-top:-340px;
+}
+.moon {
+    display: block;
+    width: 495px; 
+    height: 694px;
+    margin-right: 50px;
+    background: url(7.gif) 0 0 no-repeat;
+    background-size: 100%;
+    animation: like-gif steps(12) 1s infinite both;
+    margin-top:-100px;
+}
+
+.fire {
+    display: block;
+    width: 700px; 
+    height: 300px;
+    margin-right:50px;
+    background: url(fire.gif) 0 0 no-repeat;
+    background-size: 100%;
+    animation: like-gif steps(12) 1s infinite both;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+}
+.s0 {
+    display:inline-flex;
+   width: 350px;
+   font-size: 30px;
+   font-style: italic;
+    margin-left:20px;
+    padding-top: 120px;
+    margin-top: -200px;
+}
+
+.s1 {
+    display:block;
+    width:400px;
+   font-size: 30px;
+   font-style: italic;
+
+}
+
+.s2 {
+    display:block;
+   width: 400px;
+   font-size: 30px;
+   font-style: italic;
+    margin-right:200px;
+    padding-top: 240px;
+    
+}
+
+.s3 {
+    display:block;
+   width: 250px;
+   font-size: 30px;
+   font-style: italic;
+    margin-right:200px;
+    margin-top: -240px;
+    padding-bottom: 140px;
+}
+
+.s4 {
+    display:block;
+   width: 300px;
+   font-size: 30px;
+   font-style: italic;
+    margin-right:200px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pause {
+    animation-play-state: paused;
+}
+
+div {
+  width:100px;
+  margin:0 auto;
+  text-align:center;
+  }
+
+@keyframes like-gif {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+

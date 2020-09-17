@@ -1,0 +1,168 @@
+.rectangle {
+position: relative;
+margin-top: 100px;
+margin-left: 50px; 
+height: 190px;
+width: 540px;
+background-color: #bebebe;
+}
+
+.rectabs {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.buttonsPause {
+    position: absolute;
+    left: -30px;
+    top: 10px;
+}
+
+.buttonsPlay {
+    position: absolute;
+    left: -30px;
+    top: 30px;
+}
+
+.rectangle2 {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    height: 200px;
+    width: 340px;
+    background-color: #bfbfbf;
+}
+
+.rectabs2 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.rectangle3 {
+    position: absolute;
+    top: 270px;
+    right: 450px;
+    height: 50px;
+    width: 100px;
+    background-color: #bfbfbf;
+}
+
+.rectabs3 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.rectangle4 {
+    position: absolute;
+    top: 370px;
+    right: 575px;
+    height: 75px;
+    width: 50px;
+    background-color: #bfbfbf;
+}
+
+.rectabs4 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.rectangle5 {
+    position: absolute;
+    top: 370px;
+    left: 250px;
+    height: 575px;
+    width: 105px;
+    background-color: #bfbfbf;
+}
+
+.rectabs5 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.rectangle6 {
+    position: absolute;
+    top: 1070px;
+    left: 95px;
+    height: 258px;
+    width: 522px;
+    background-color: #2e4451;
+}
+
+.rectabs6 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.rectangle7 {
+    position: absolute;
+    top: 1470px;
+    left: 50px;
+    height: 636px;
+    width: 445px;
+    background-color: #f5c116;
+}
+
+.rectabs7 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.rectangle8 {
+    position: absolute;
+    top: 1170px;
+    right: 50px;
+    height: 714px;
+    width: 515px;
+    background-color: #16f516;
+}
+
+.rectabs8 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.rectangle9 {
+    position: absolute;
+    top: 2270px;
+    left: 50px;
+    height: 634px;
+    width: 1220px;
+    background-color: #f516d0;
+}
+
+.rectabs9 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.rectabs9a {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.rectangle10 {
+    position: absolute;
+    top: 3070px;
+    left: 2hugo5%;
+    height: 270px;
+    width: 464px;
+    background-color: #f51616;
+
+}
+
+.rectabs10 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
