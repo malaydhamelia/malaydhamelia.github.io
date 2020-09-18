@@ -16,13 +16,26 @@ background-color: #bebebe;
 .buttonsPause {
     position: absolute;
     left: -30px;
-    top: 10px;
+    top: 0px;
 }
 
 .buttonsPlay {
     position: absolute;
     left: -30px;
-    top: 30px;
+    top: 20px;
+}
+
+/* buttons next and back */
+.buttonsNext {
+    position: absolute;
+    left: -30px;
+    top: 40px;
+}
+
+.buttonBack {
+    position: absolute;
+    left: -30px;
+    top: 60px;
 }
 
 .rectangle2 {
@@ -194,3 +207,4 @@ background-color: #bebebe;
   .message {
       padding: 15px;
   }
+
