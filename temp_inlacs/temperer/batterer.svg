@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="batterer.svg"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 26.458332 18.851562"
+   height="18.851562mm"
+   width="26.458332mm">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="67"
+     inkscape:window-height="731"
+     inkscape:window-width="1299"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="g93"
+     inkscape:document-units="mm"
+     inkscape:cy="36.733083"
+     inkscape:cx="-10.000013"
+     inkscape:zoom="1.4"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-108.47917,-93.090562)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,108.47917,88.063479)"
+       id="g93">
+      <path
+         d="M 50,19 C 25.762,19 0,25.693 0,38.097 v 33.056 c 0,3.305 1.848,6.359 5.488,9.067 l 0.836,0.63 24.592,-3.993 v 12.136 l 4.912,0.521 c 4.588,0.495 9.352,0.736 14.172,0.736 24.238,0 50,-6.692 50,-19.099 V 38.097 C 100,25.693 74.238,19 50,19 Z M 30.916,55.942 v 5.084 c -0.268,-0.121 -0.562,-0.192 -0.875,-0.192 -1.174,0 -2.125,0.951 -2.125,2.125 0,1.174 0.951,2.125 2.125,2.125 0.313,0 0.607,-0.071 0.875,-0.193 v 1.751 l -3.413,0.554 c -0.095,-1.503 -1.331,-2.695 -2.857,-2.695 -1.588,0 -2.875,1.287 -2.875,2.875 0,0.255 0.043,0.497 0.106,0.732 L 9.454,70.121 9.455,50.933 c 0.106,-0.003 0.284,-0.212 0.393,-0.229 4.243,-0.689 4.048,-1.887 8.292,-2.576 4.243,-0.689 4.249,-0.654 8.491,-1.343 4.24,-0.688 4.478,0.779 8.718,0.091 3.06,-0.497 3.78,-1.481 5.534,-2.251 l -3.569,4.056 c -0.206,-0.111 -0.438,-0.18 -0.688,-0.18 -0.806,0 -1.458,0.653 -1.458,1.458 0,0.317 0.104,0.609 0.276,0.849 l -2.019,2.294 z m 64.083,6.514 v 3.695 c 0,2.144 -2.328,4.6 -6.652,6.848 C 88.172,72.706 87.867,72.5 87.5,72.5 c -0.553,0 -1,0.447 -1,1 0,0.127 0.029,0.245 0.072,0.357 -1.826,0.825 -3.932,1.61 -6.301,2.329 -0.085,-0.944 -0.869,-1.687 -1.836,-1.687 -1.023,0 -1.853,0.829 -1.853,1.853 0,0.287 0.07,0.556 0.188,0.798 -3.438,0.854 -7.317,1.567 -11.599,2.08 -0.275,-0.604 -0.882,-1.025 -1.588,-1.025 -0.837,0 -1.534,0.588 -1.707,1.372 -3.7,0.335 -7.663,0.523 -11.877,0.523 -2.916,0 -11.236,-0.35 -14.083,-0.535 V 78.311 76.042 70.821 58.786 c 1.496,0.438 4.168,1.151 7.113,1.298 2.14,0.107 4.709,-1.75 7.49,-1.75 2.459,0 5.115,0.671 7.908,0.515 2.546,-0.144 5.298,0.548 7.997,0.221 2.22,-0.271 4.324,-1.559 6.533,-2.252 0.413,-0.009 0.821,-0.037 1.22,-0.117 0.383,-0.077 0.77,-0.179 1.154,-0.273 2.304,0.009 4.88,0.941 6.997,0.288 2.545,-0.786 4.08,-4.306 6.455,-5.396 2.295,-1.053 4.204,-1.362 6.214,-2.64 v 13.776 z m 0,-15.548 c -0.03,-0.017 -0.063,-0.033 -0.101,-0.047 0.033,-0.025 0.068,-0.05 0.101,-0.075 z"
+         id="path10" />
+      <circle
+         cx="40.333"
+         cy="65.667"
+         r="1.1670001"
+         id="circle12" />
+      <circle
+         cx="51.166"
+         cy="63.333"
+         r="1.1670001"
+         id="circle14" />
+      <circle
+         cx="56.134998"
+         cy="69.167"
+         r="0.833"
+         id="circle16" />
+      <circle
+         cx="61.833"
+         cy="63.334"
+         r="1.75"
+         id="circle18" />
+      <circle
+         cx="49.417"
+         cy="73.083"
+         r="0.583"
+         id="circle20" />
+      <circle
+         cx="69.833"
+         cy="73.5"
+         r="1"
+         id="circle22" />
+      <circle
+         cx="43.205002"
+         cy="78.205002"
+         r="1.705"
+         id="circle24" />
+      <circle
+         cx="76.583"
+         cy="63.917"
+         r="1.75"
+         id="circle26" />
+      <circle
+         cx="91.167"
+         cy="55.625"
+         r="1"
+         id="circle28" />
+      <circle
+         cx="88.333"
+         cy="65.75"
+         r="1.8329999"
+         id="circle30" />
+      <circle
+         cx="85.166"
+         cy="59.5"
+         r="1.3329999"
+         id="circle32" />
+      <circle
+         cx="79.416"
+         cy="70.25"
+         r="1.0829999"
+         id="circle34" />
+      <circle
+         cx="21.771"
+         cy="56.896"
+         r="1.271"
+         id="circle36" />
+      <circle
+         cx="16.292"
+         cy="63.625"
+         r="1.4579999"
+         id="circle38" />
+      <circle
+         cx="13.333"
+         cy="54.333"
+         r="1.5"
+         id="circle40" />
+      <circle
+         cx="23.188"
+         cy="51.417"
+         r="1.4170001"
+         id="circle42" />
+      <circle
+         cx="29.471001"
+         cy="54.388"
+         r="1.5549999"
+         id="circle44" />
+      <circle
+         cx="31.775"
+         cy="49.25"
+         r="0.75"
+         id="circle46" />
+      <circle
+         cx="54.5"
+         cy="76.5"
+         r="1.635"
+         id="circle48" />
+      <circle
+         cx="70.083"
+         cy="62.084"
+         r="1.25"
+         id="circle50" />
+      <circle
+         cx="70.082001"
+         cy="69.583"
+         r="1.249"
+         id="circle52" />
+      <circle
+         cx="63.583"
+         cy="73.083"
+         r="1.25"
+         id="circle54" />
+    </g>
+  </g>
+</svg>

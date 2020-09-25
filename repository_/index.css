@@ -41,9 +41,9 @@ background-color: #bebebe;
 .rectangle2 {
     position: absolute;
     top: 200px;
-    right: 50px;
-    height: 200px;
-    width: 340px;
+    right: 30px;
+    height: 178px;
+    width: 489px;
     background-color: #bfbfbf;
 }
 
@@ -55,10 +55,10 @@ background-color: #bebebe;
 
 .rectangle3 {
     position: absolute;
-    top: 270px;
-    right: 450px;
-    height: 50px;
-    width: 100px;
+    top: 370px;
+    right: 650px;
+    height: 68px;
+    width: 133px;
     background-color: #bfbfbf;
 }
 
@@ -71,10 +71,26 @@ background-color: #bebebe;
 .rectangle4 {
     position: absolute;
     top: 370px;
-    right: 575px;
-    height: 75px;
-    width: 50px;
+    right: 875px;
+    height: 92px;
+    width: 79px;
     background-color: #bfbfbf;
+}
+
+/* side */
+.rectangleside {
+    position: absolute;
+    top: 450px;
+    right: 50px;
+    height: 585px;
+    width: 233px;
+    background-color: #ffffff;
+}
+
+.rectabsside {
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
 
 .rectabs4 {
@@ -87,8 +103,8 @@ background-color: #bebebe;
     position: absolute;
     top: 370px;
     left: 250px;
-    height: 575px;
-    width: 105px;
+    height: 579px;
+    width: 96px;
     background-color: #bfbfbf;
 }
 
@@ -128,10 +144,12 @@ background-color: #bebebe;
     top: 10px;
 }
 
+
+
 .rectangle8 {
     position: absolute;
     top: 1170px;
-    right: 50px;
+    right: 30px;
     height: 714px;
     width: 515px;
     background-color: #16f516;
@@ -167,7 +185,7 @@ background-color: #bebebe;
 .rectangle10 {
     position: absolute;
     top: 3070px;
-    left: 2hugo5%;
+    left: 550px;
     height: 270px;
     width: 464px;
     background-color: #f51616;
@@ -180,18 +198,19 @@ background-color: #bebebe;
     top: 10px;
 }
 /* The pop up css */
+
 .alert {
     position: fixed;
-    bottom: 300px;
+    bottom: 100px;
     /* padding: 20px; */
-    background-color: #f44336;
-    color: white;
+    background-color: rgb(135, 240, 165);
+    color: rgb(0, 0, 0);
     z-index: 10;
   }
   
-  .closebtn {
+.closebtn {
     margin-left: 15px;
-    color: white;
+    color: rgb(142, 25, 25);
     font-weight: bold;
     float: right;
     font-size: 22px;
@@ -200,11 +219,11 @@ background-color: #bebebe;
     transition: 0.3s;
   }
   
-  .closebtn:hover {
+.closebtn:hover {
     color: black;
   }
 
-  .message {
-      padding: 15px;
+.message {
+    padding: 25px;
   }
 
