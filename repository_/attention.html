@@ -7,9 +7,9 @@
         <script type="text/javascript" src="./rubbable.js"></script>
         <style>
             #grad1 {
-                height: 3240px;
+                height: 2800px;
                 
-                background-image: linear-gradient(rgba(255,0,0,0) 43%, rgb(0, 0, 0));
+                background-image: linear-gradient(rgba(0,0,0,0), 85%, rgb(0, 0, 0) );
             }
             #cursor{
                 color: white;
@@ -21,16 +21,33 @@
     <body>
         <!-- sound -->
         <div>
-        <audio controls autoPlay loop>
-            <source src="example_gifs/poem.ogg" type="audio/ogg">
+            <!-- <audio autoplay="autoplay" loop>     
+            <!-- <source src="music.ogg" />      
+            <source src="example_gifs/poem_fire.mp3" />   
+            </audio>  -->
+        <audio autoPlay loop>
+            <source src="example_gifs/poem_fire.mp3" type="audio/mp3">
             Your browser does not support the audio element.
           </audio>
         </div>
         <!-- Pop up -->
         <div id="randomid" class="alert">
         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-            <div class="message"> <br> <br><br><strong>!!!Malay!!!</strong> <br> <p> Mauris imperdiet magna quis lorem iaculis imperdiet. Ut efficitur elementum turpis, et accumsan neque viverra ullamcorper. Cras et suscipit nibh. Donec at lacus quis lacus tincidunt volutpat. Morbi felis mauris, efficitur cursus consequat id, tempus et augue. Mauris id metus luctus, volutpat neque vitae, tincidunt tortor. Morbi vulputate sit amet purus eget suscipit.</p>
-                <p> eu quam suscipit massa ultrices tempor. Phasellus porttitor erat justo, sit amet sodales mauris mollis sed. Aenean sit amet turpis at nibh interdum mattis. Aenean laoreet sapien aliquet tempus suscipit. Donec feugiat pellentesque nunc eu hendrerit. Sed volutpat sapien id luctus blandit. Pellentesque at eleifend dui. Phasellus eleifend ullamcorper magna, in viverra leo faucibus at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam sagittis neque vel eros vestibulum dictum. Donec eget mauris arcu. Donec a enim diam. Quisque fringilla tellus in libero scelerisque, ac tempus velit gravida. </p>
+            <div class="message"> <br> <br><br><strong>Here</strong> <br> <p> The project is inspired by the concept of Real-time bidding and looks at how attention is being used as an economic 
+                commodity in the current socio-technological systems. The attention is being grabbed, traded and manipulated in the larger visual (digital) culture on the internet, and the media (news).
+                </p>
+                Note:
+                <p>
+                You can make your own copy version of the artwork</p>
+                <ul>
+                <li> by Play/Pause the gifs</li>
+                <li> Press Ctrl+P to save as PDF file for print purpose. The print function depends on your browser. Some browsers give nicer prints, while some do not.</li>
+                <li> This page does not use cookies.</li>
+                </ul>
+                - Salik Ansari
+                
+                <p> <i>This webpage is the result of its contributors. They have been mentioned at the end of page</i></p>
+                 </p>
                 <br> <br>    
             </div>
         </div>
@@ -89,7 +106,7 @@
             <div class="rectabs3">
             <img id="example3" src="./example_gifs/three.gif" />
             </div>
-            <script type="text/javascript">
+            <!-- <script type="text/javascript">
                 var sup3 = new SuperGif({ gif: document.getElementById('example3') } );
                 sup3.load();
             </script>
@@ -106,14 +123,14 @@
             <br>
             <div class="buttonBack">
             <a href="javascript:;" onmousedown="sup3.move_relative(-1); return false;"> ⏮️ </a>			
-            </div>
+            </div> -->
         </div>
         <!-- Fourth gif -->
         <div id="someid4" class="rectangle4"> 
             <div class="rectabs4">
             <img id="example4" src="./example_gifs/four.gif" />
             </div>
-            <script type="text/javascript">
+            <!-- <script type="text/javascript">
                 var sup4 = new SuperGif({ gif: document.getElementById('example4') } );
                 sup4.load();
             </script>
@@ -130,7 +147,7 @@
             <br>
             <div class="buttonBack">
             <a href="javascript:;" onmousedown="sup4.move_relative(-1); return false;"> ⏮️ </a>			
-            </div>
+            </div> -->
         </div>
         <!-- Prose 1 -->
         <div id="prose1" class="one">
@@ -246,29 +263,28 @@
             with the touch<br>of the last ray<br> the river body <br> was aflame
         </div>
         <!-- Prose 5 -->
-        <div id="prose4" class="five">
-            bodies mutilated ... 
+        <div class="rectangle-yellow">
+            <!-- <div class="five"> -->
+                bodies mutilated ...<span id="cursor2">_</span>
+                <script>
+                    var cursor2 = true;
+                    var speed2 = 150;        setInterval(() => {
+                      if(cursor2) {
+                        document.getElementById('cursor2').style.opacity = 0;
+                        cursor2 = false;
+                      }else {
+                        document.getElementById('cursor2').style.opacity = 1;
+                        cursor2 = true;
+                      }
+                    }, speed2);
+                </script>      
+            <!-- </div> -->
         </div>
         <!-- Prose 6 -->
         <div id="prose6" class="six">
             burning, burning,
         </div>
-        <div id="prose7" class="seven">
-            burning ...<span id="cursor">_</span>
-                <script>
-                    var cursor = true;
-                    var speed = 250;        setInterval(() => {
-                      if(cursor) {
-                        document.getElementById('cursor').style.opacity = 0;
-                        cursor = false;
-                      }else {
-                        document.getElementById('cursor').style.opacity = 1;
-                        cursor = true;
-                      }
-                    }, speed);
-                </script>
-        </div>
-        
+             
         <!-- Eighth gif -->
         <div id="someid8" class="rectangle8"> 
             <div class="rectabs8">
@@ -324,7 +340,7 @@
         <!-- Tenth gif -->
         <div id="someid10" class="rectangle10"> 
             <div class="rectabs10">
-            <img id="example10" src="./example_gifs/fire.gif" />
+            <!-- <img id="example10" src="./example_gifs/fire.gif" /> -->
             </div>
             <script type="text/javascript">
                 var sup10 = new SuperGif({ gif: document.getElementById('example10') } );
@@ -345,14 +361,29 @@
             <a href="javascript:;" onmousedown="sup10.move_relative(-1); return false;"> ⏮️ </a>			
             </div>
         </div>
+        <div id="prose7" class="seven">
+            burning ...<span id="cursor">_</span>
+                <script>
+                    var cursor = true;
+                    var speed = 150;        setInterval(() => {
+                      if(cursor) {
+                        document.getElementById('cursor').style.opacity = 0;
+                        cursor = false;
+                      }else {
+                        document.getElementById('cursor').style.opacity = 1;
+                        cursor = true;
+                      }
+                    }, speed);
+                </script>
+        </div>  
         <div id="grad1"></div>
         <div class="credits">
         <h3>Contributions</h3> <br>
         </div>
-        <div id="credits" class="credits-content">
+        <div class="credits-content">
             
-            <b>Project by</b> Artist Salik Ansari<br>
-            <b>Implementation by</b> <a href="https://malaydhamelia.github.io" target="blank">Malay Dhamelia</a><br>
+            <b>Project by Artist Salik Ansari</b><br>
+            <b>Interaction Design by</b> <a href="https://malaydhamelia.github.io" target="blank">Malay Dhamelia</a><br>
             <br>
 
             <b>Blurring boundaries 2020</b><br>

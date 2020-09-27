@@ -1,7 +1,7 @@
 .one {
     position: absolute;
     top: 570px;
-    left: 400px;
+    left: 500px;
     font-size: 30px;
     font-style: italic;
     color: #7d7d7d;
@@ -38,16 +38,17 @@
 
 }
 
-.five {
+
+
+.yellow-box {
     position: absolute;
     top: 1970px;
     right: 100px;
-    background: yellow;
-    font-size: 30px;
-    font-style: italic;
-    color: #7d7d7d;
-
+    width: 500px;
+    height: 150px;
+    background-color: yellow;      
 }
+
 
 .six {
     position: absolute;
@@ -72,15 +73,20 @@
 }
 
 .credits {
-    /* padding-top: 50px; */
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+position: absolute;
+left: 40%;
+top: 3800px;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
 }
 
 .credits-content {
+    position: absolute;
+    top: 3900px;
     column-count: 2;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
     font-family: 'Courier New', Courier, monospace;
     break-after: always;
 }

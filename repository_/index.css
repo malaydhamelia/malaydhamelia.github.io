@@ -1,10 +1,10 @@
 .rectangle {
 position: relative;
-margin-top: 100px;
+margin-top: 40px;
 margin-left: 50px; 
 height: 190px;
 width: 540px;
-background-color: #bebebe;
+background-color: #ebebeb;
 }
 
 .rectabs {
@@ -44,7 +44,7 @@ background-color: #bebebe;
     right: 30px;
     height: 178px;
     width: 489px;
-    background-color: #bfbfbf;
+    background-color: #ebebeb;
 }
 
 .rectabs2 {
@@ -57,24 +57,24 @@ background-color: #bebebe;
     position: absolute;
     top: 370px;
     right: 650px;
-    height: 68px;
-    width: 133px;
-    background-color: #bfbfbf;
+    height: 58px;
+    width: 123px;
+    background-color: #ebebeb;
 }
 
 .rectabs3 {
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 5px;
+    top: 5px;
 }
 
 .rectangle4 {
     position: absolute;
     top: 370px;
     right: 875px;
-    height: 92px;
-    width: 79px;
-    background-color: #bfbfbf;
+    height: 107px;
+    width: 69px;
+    background-color: #ebebeb;
 }
 
 /* side */
@@ -92,26 +92,26 @@ background-color: #bebebe;
     left: 10px;
     top: 10px;
 }
-
+/* over side */
 .rectabs4 {
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 5px;
+    top: 5px;
 }
 
 .rectangle5 {
     position: absolute;
     top: 370px;
     left: 250px;
-    height: 579px;
-    width: 96px;
-    background-color: #bfbfbf;
+    height: 569px;
+    width: 86px;
+    background-color: #ebebeb;
 }
 
 .rectabs5 {
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 5px;
+    top: 5px;
 }
 
 .rectangle6 {
@@ -120,7 +120,7 @@ background-color: #bebebe;
     left: 95px;
     height: 258px;
     width: 522px;
-    background-color: #2e4451;
+    background-color:rgba(255, 255, 255, 0);
 }
 
 .rectabs6 {
@@ -154,7 +154,34 @@ background-color: #bebebe;
     width: 515px;
     background-color: #16f516;
 }
+/* yellow recatngle text */
 
+.rectangle-yellow {
+    position: absolute;
+    top: 1970px;
+    right: 30px;
+    height: 100px;
+    width: 475px;
+    background-color: #e2f516;
+    font-size: 30px;
+    font-style: italic;
+    color: #7d7d7d;
+    padding: 20px;
+    text-align: center;
+}
+
+.five {
+    position: absolute;
+    /* top: 1970px;
+    right: 100px;
+    background: yellow;
+    background-size: cover; */
+    /* font-size: 30px;
+    font-style: italic;
+    color: #7d7d7d; */
+
+}
+/*  */
 .rectabs8 {
     position: absolute;
     left: 10px;
@@ -167,7 +194,7 @@ background-color: #bebebe;
     left: 50px;
     height: 634px;
     width: 1220px;
-    background-color: #f516d0;
+    background-color:rgb(0, 0, 0, 0);
 }
 
 .rectabs9 {
@@ -184,11 +211,20 @@ background-color: #bebebe;
 
 .rectangle10 {
     position: absolute;
-    top: 3070px;
-    left: 550px;
-    height: 270px;
-    width: 464px;
-    background-color: #f51616;
+    display: block;
+    /* left: auto; */
+    /* margin-right: auto; */
+    background-position-x: center;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background: url(./example_gifs/fire.gif);
+    background-size: 99%;
+    background-repeat: no-repeat;
+    margin-top: 2795px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgb(0,0,0,0); */
 
 }
 
@@ -196,20 +232,25 @@ background-color: #bebebe;
     position: absolute;
     left: 10px;
     top: 10px;
+
 }
 /* The pop up css */
 
 .alert {
     position: fixed;
+    top:20%;
+    left: 25%;
+    width: 700px;
+    height: 550px;
     bottom: 100px;
     /* padding: 20px; */
-    background-color: rgb(135, 240, 165);
+    background-color: rgb(252, 215, 5);
     color: rgb(0, 0, 0);
     z-index: 10;
   }
   
 .closebtn {
-    margin-left: 15px;
+    margin-left: 25px;
     color: rgb(142, 25, 25);
     font-weight: bold;
     float: right;
@@ -224,6 +265,6 @@ background-color: #bebebe;
   }
 
 .message {
-    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
-
