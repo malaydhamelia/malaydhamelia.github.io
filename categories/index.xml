@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Malay Dhamelia</title>
@@ -6,40 +6,13 @@
     <description>Recent content in Categories on Malay Dhamelia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Analysis</title>
-      <link>/categories/analysis/</link>
-      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Behavior Change</title>
-      <link>/categories/behavior-change/</link>
-      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/behavior-change/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design</title>
-      <link>/categories/design/</link>
-      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graphic</title>
+      <title>graphic</title>
       <link>/categories/graphic/</link>
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -48,7 +21,7 @@
     </item>
     
     <item>
-      <title>Humor</title>
+      <title>humor</title>
       <link>/categories/humor/</link>
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -57,16 +30,7 @@
     </item>
     
     <item>
-      <title>List</title>
-      <link>/categories/list/</link>
-      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/list/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quirk</title>
+      <title>quirk</title>
       <link>/categories/quirk/</link>
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -75,16 +39,16 @@
     </item>
     
     <item>
-      <title>Reflections</title>
-      <link>/categories/reflections/</link>
-      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      <title>list</title>
+      <link>/categories/list/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/reflections/</guid>
+      <guid>/categories/list/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Research</title>
+      <title>research</title>
       <link>/categories/research/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -93,11 +57,47 @@
     </item>
     
     <item>
-      <title>Resources</title>
+      <title>resources</title>
       <link>/categories/resources/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analysis</title>
+      <link>/categories/analysis/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design</title>
+      <link>/categories/design/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>behavior change</title>
+      <link>/categories/behavior-change/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/behavior-change/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reflections</title>
+      <link>/categories/reflections/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/reflections/</guid>
       <description></description>
     </item>
     

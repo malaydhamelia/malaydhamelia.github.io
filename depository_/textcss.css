@@ -1,0 +1,97 @@
+.one {
+    position: absolute;
+    top: 570px;
+    left: 500px;
+    font-size: 30px;
+    font-style: italic;
+    color: #7d7d7d;
+
+}
+
+.two {
+    position: absolute;
+    top: 770px;
+    right: 300px;
+    font-size: 30px;
+    font-style: italic;
+    color: #7d7d7d;
+
+}
+
+.three {
+    position: absolute;
+    top: 1370px;
+    left: 100px;
+    font-size: 30px;
+    font-style: italic;
+    color: #7d7d7d;
+
+}
+
+.four {
+    position: absolute;
+    top: 1770px;
+    right: 600px;
+    font-size: 30px;
+    font-style: italic;
+    color: #7d7d7d;
+
+}
+
+
+
+.yellow-box {
+    position: absolute;
+    top: 1970px;
+    right: 100px;
+    width: 500px;
+    height: 150px;
+    background-color: yellow;      
+}
+
+
+.six {
+    position: absolute;
+    top: 2970px;
+    right: 300px;
+    /* background: yellow; */
+    font-size: 30px;
+    font-style: italic;
+    color: #009dff;
+
+}
+
+.seven {
+    position: absolute;
+    top: 3170px;
+    left: 300px;
+    /* background: yellow; */
+    font-size: 30px;
+    font-style: italic;
+    color: #009dff;
+
+}
+
+.credits {
+position: absolute;
+left: 40%;
+top: 3800px;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.credits-content {
+    position: absolute;
+    top: 3900px;
+    column-count: 2;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    break-after: always;
+}
+
+.audio{
+    position: absolute;
+    top: 3670px;
+}

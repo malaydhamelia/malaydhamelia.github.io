@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>List on Malay Dhamelia</title>
+    <title>list on Malay Dhamelia</title>
     <link>/categories/list/</link>
-    <description>Recent content in List on Malay Dhamelia</description>
+    <description>Recent content in list on Malay Dhamelia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 29 Jul 2020 00:00:00 +0000</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/2020/07/29/resources-to-hack-the-research-workflow/</guid>
-      <description>ChangeLog: 20-Sep-2020: Added python script to highlight pdf annotations Added Zettelkasten based foam-bubble 29-Jul-2020: Added connectedpapers.com 14-Jul-2020: Added Tiddlywiki 14-Mar-2020: Highly.co status as defunct. Twitter acquired highly.co (https://techcrunch.com/2019/04/17/twitter-highly/) 19-August-2019: Made the list  The list contains a free softwares that aids in conducting research systematically. I believe that a document once read, a video once watched should be documented and stored systematically. Since consuming a stimulating piece of writing forms multiple connections in a researcher&amp;rsquo;s head, the storage system should not only store the documents and it&amp;rsquo;s whereabouts, but also should store the connections it has once formed.</description>
+      <description>ChangeLog: 20-Sep-2020: Added python script to highlight pdf annotations Added Zettelkasten based foam-bubble 29-Jul-2020: Added connectedpapers.com 14-Jul-2020: Added Tiddlywiki 14-Mar-2020: Highly.co status as defunct. Twitter acquired highly.co (https://techcrunch.com/2019/04/17/twitter-highly/) 19-August-2019: Made the list The list contains a free softwares that aids in conducting research systematically. I believe that a document once read, a video once watched should be documented and stored systematically. Since consuming a stimulating piece of writing forms multiple connections in a researcher&amp;rsquo;s head, the storage system should not only store the documents and it&amp;rsquo;s whereabouts, but also should store the connections it has once formed.</description>
     </item>
     
   </channel>

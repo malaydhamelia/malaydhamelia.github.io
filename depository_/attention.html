@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <link rel="stylesheet" type="text/css" href="./textcss.css">
+        <script type="text/javascript" src="./libgif.js"></script>
+        <script type="text/javascript" src="./rubbable.js"></script>
+        <style>
+            #grad1 {
+                height: 2800px;
+                
+                background-image: linear-gradient(rgba(0,0,0,0), 85%, rgb(0, 0, 0) );
+            }
+            #cursor{
+                color: white;
+          font-size: 30px;
+            }
+        </style>
+        <title>Here: Repository of Attention</title>
+    </head>
+    <body>
+        <!-- sound -->
+       
+        <!-- Pop up -->
+        <div id="randomid" class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            <div class="message"> <br> <br><br><strong>Here</strong> <br> <p> The project is inspired by the concept of Real-time bidding and looks at how attention is being used as an economic 
+                commodity in the current socio-technological systems. The attention is being grabbed, traded and manipulated in the larger visual (digital) culture on the internet, and the media (news).
+                </p>
+                Note:
+                <p>
+                You can make your own copy version of the artwork</p>
+                <ul>
+                <li> by Play/Pause the gifs</li>
+                <li> Press Ctrl+P to save as PDF file for print purpose. The print function depends on your browser. Some browsers give nicer prints, while some do not.</li>
+                <li> This page does not use cookies.</li>
+                </ul>
+                - Salik Ansari
+                
+                </div>
+                <p> <i>Work on this webpage is the result of its contribution by several artists and designers. They are acknowledge at the end of page. You are encourage to look at their work as well.</i></p>
+                 </p>
+                In case your browser blocks the audio, you can manually play it from here: 
+                <audio Controls autoPlay loop>
+                    <source src="example_gifs/poem_fire.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                  </audio>
+                <br> <br>    
+            </div>
+        </div>
+ 
+        <!-- First Gif -->
+        <div id="someid" class="rectangle"> 
+            <div class="rectabs">
+            <img id="example1" src="./example_gifs/1.gif" />
+            </div>
+            <script type="text/javascript">
+                var sup1 = new SuperGif({ gif: document.getElementById('example1') } );
+                sup1.load();
+            </script>
+            <div class="buttonsPause">
+            <a href="javascript:;" onmousedown="sup1.pause(); return false;">⏸️</a> 
+            </div>
+            <br>
+            <div class="buttonsPlay">
+            <a href="javascript:;" onmousedown="sup1.play(); return false;">▶️</a> 
+            </div>
+            <br>
+            <div class="buttonsNext">
+            <a href="javascript:;" onmousedown="sup1.move_relative(1); return false;"> ⏭️ </a> 
+            </div>
+            <br>
+            <div class="buttonBack">
+            <a href="javascript:;" onmousedown="sup1.move_relative(-1); return false;"> ⏮️ </a>			
+            </div>
+        </div>
+        <!-- Second gif -->
+        <div id="someid2" class="rectangle2"> 
+            <div class="rectabs2">
+            <img id="example2" src="./example_gifs/two.gif" />
+            </div>
+            <script type="text/javascript">
+                var sup2 = new SuperGif({ gif: document.getElementById('example2') } );
+                sup2.load();
+            </script>
+            <div class="buttonsPause">
+            <a href="javascript:;" onmousedown="sup2.pause(); return false;">⏸️</a> 
+            </div>
+            <br>
+            <div class="buttonsPlay">
+            <a href="javascript:;" onmousedown="sup2.play(); return false;">▶️</a> 
+            </div>
+            <div class="buttonsNext">
+            <a href="javascript:;" onmousedown="sup2.move_relative(1); return false;"> ⏭️ </a> 
+            </div>
+            <br>
+            <div class="buttonBack">
+            <a href="javascript:;" onmousedown="sup2.move_relative(-1); return false;"> ⏮️ </a>			
+            </div>
+        </div>
+        <!-- Third gif -->
+        <div id="someid3" class="rectangle3"> 
+            <div class="rectabs3">
+            <img id="example3" src="./example_gifs/three.gif" />
+            </div>
+            <!-- <script type="text/javascript">
+                var sup3 = new SuperGif({ gif: document.getElementById('example3') } );
+                sup3.load();
+            </script>
+            <div class="buttonsPause">
+            <a href="javascript:;" onmousedown="sup3.pause(); return false;">⏸️</a> 
+            </div>
+            <br>
+            <div class="buttonsPlay">
+            <a href="javascript:;" onmousedown="sup3.play(); return false;">▶️</a> 
+            </div>
+            <div class="buttonsNext">
+            <a href="javascript:;" onmousedown="sup3.move_relative(1); return false;"> ⏭️ </a> 
+            </div>
+            <br>
+            <div class="buttonBack">
+            <a href="javascript:;" onmousedown="sup3.move_relative(-1); return false;"> ⏮️ </a>			
+            </div> -->
+        </div>
+        <!-- Fourth gif -->
+        <div id="someid4" class="rectangle4"> 
+            <div class="rectabs4">
+            <img id="example4" src="./example_gifs/four.gif" />
+            </div>
+            <!-- <script type="text/javascript">
+                var sup4 = new SuperGif({ gif: document.getElementById('example4') } );
+                sup4.load();
+            </script>
+            <div class="buttonsPause">
+            <a href="javascript:;" onmousedown="sup4.pause(); return false;">⏸️</a> 
+            </div>
+            <br>
+            <div class="buttonsPlay">
+            <a href="javascript:;" onmousedown="sup4.play(); return false;">▶️</a> 
+            </div>
+            <div class="buttonsNext">
+            <a href="javascript:;" onmousedown="sup4.move_relative(1); return false;"> ⏭️ </a> 
+            </div>
+            <br>
+            <div class="buttonBack">
+            <a href="javascript:;" onmousedown="sup4.move_relative(-1); return false;"> ⏮️ </a>			
+            </div> -->
+        </div>
+        <!-- Prose 1 -->
+        <div id="prose1" class="one">
+            when song collapsed <br> the earth shuddered
+        </div>
+        <!-- Prose 2 -->
+        <div id="prose1" class="two">
+            and red flowed <br> tomorrow's history
+        </div>
+        <!-- Side gif -->
+        <div id="someidside" class="rectangleside"> 
+            <div class="rectabsside">
+            <img id="example4" src="./example_gifs/6.gif" />
+            </div>
+            <!-- <script type="text/javascript">
+                var sup4 = new SuperGif({ gif: document.getElementById('example4') } );
+                sup4.load();
+            </script>
+            <div class="buttonsPause">
+            <a href="javascript:;" onmousedown="sup4.pause(); return false;">⏸️</a> 
+            </div>
+            <br>
+            <div class="buttonsPlay">
+            <a href="javascript:;" onmousedown="sup4.play(); return false;">▶️</a> 
+            </div>
+            <div class="buttonsNext">
+            <a href="javascript:;" onmousedown="sup4.move_relative(1); return false;"> ⏭️ </a> 
+            </div>
+            <br>
+            <div class="buttonBack">
+            <a href="javascript:;" onmousedown="sup4.move_relative(-1); return false;"> ⏮️ </a>			
+            </div> -->
+        </div>
+               
+         <!-- Fifth gif -->
+         <div id="someid5" class="rectangle5"> 
+            <div class="rectabs5">
+            <img id="example5" src="./example_gifs/five.gif" />
+            </div>
+            <script type="text/javascript">
+                var sup5 = new SuperGif({ gif: document.getElementById('example5') } );
+                sup5.load();
+            </script>
+            <div class="buttonsPause">
+            <a href="javascript:;" onmousedown="sup5.pause(); return false;">⏸️</a> 
+            </div>
+            <br>
+            <div class="buttonsPlay">
+            <a href="javascript:;" onmousedown="sup5.play(); return false;">▶️</a> 
+            </div>
+            <div class="buttonsNext">
+            <a href="javascript:;" onmousedown="sup5.move_relative(1); return false;"> ⏭️ </a> 
+            </div>
+            <br>
+            <div class="buttonBack">
+            <a href="javascript:;" onmousedown="sup5.move_relative(-1); return false;"> ⏮️ </a>			
+            </div>
+        </div>
+         <!-- Sixth gif -->
+         <div id="someid6" class="rectangle6"> 
+            <div class="rectabs6">
+            <img id="example6" src="./example_gifs/6_.gif" />
+            </div>
+            <script type="text/javascript">
+                var sup6 = new SuperGif({ gif: document.getElementById('example6') } );
+                sup6.load();
+            </script>
+            <div class="buttonsPause">
+            <a href="javascript:;" onmousedown="sup6.pause(); return false;">⏸️</a> 
+            </div>
+            <br>
+            <div class="buttonsPlay">
+            <a href="javascript:;" onmousedown="sup6.play(); return false;">▶️</a> 
+            </div>
+            <div class="buttonsNext">
+            <a href="javascript:;" onmousedown="sup6.move_relative(1); return false;"> ⏭️ </a> 
+            </div>
+            <br>
+            <div class="buttonBack">
+            <a href="javascript:;" onmousedown="sup6.move_relative(-1); return false;"> ⏮️ </a>			
+            </div>
+        </div>
+         <!-- Seventh gif -->
+         <div id="someid7" class="rectangle7"> 
+            <div class="rectabs7">
+            <img id="example7" src="./example_gifs/seven.gif" />
+            </div>
+            <script type="text/javascript">
+                var sup7 = new SuperGif({ gif: document.getElementById('example7') } );
+                sup7.load();
+            </script>
+            <div class="buttonsPause">
+            <a href="javascript:;" onmousedown="sup7.pause(); return false;">⏸️</a> 
+            </div>
+            <br>
+            <div class="buttonsPlay">
+            <a href="javascript:;" onmousedown="sup7.play(); return false;">▶️</a> 
+            </div>
+            <div class="buttonsNext">
+            <a href="javascript:;" onmousedown="sup7.move_relative(1); return false;"> ⏭️ </a> 
+            </div>
+            <br>
+            <div class="buttonBack">
+            <a href="javascript:;" onmousedown="sup7.move_relative(-1); return false;"> ⏮️ </a>			
+            </div>
+        </div>
+         <!-- Prose 3 -->
+         <div id="prose3" class="three">
+            dreams lost in mud<br>desires suppresed
+        </div>
+         <!-- Prose 4 -->
+         <div id="prose4" class="four">
+            with the touch<br>of the last ray<br> the river body <br> was aflame
+        </div>
+        <!-- Prose 5 -->
+        <div class="rectangle-yellow">
+            <!-- <div class="five"> -->
+                bodies mutilated ...<span id="cursor2">_</span>
+                <script>
+                    var cursor2 = true;
+                    var speed2 = 150;        setInterval(() => {
+                      if(cursor2) {
+                        document.getElementById('cursor2').style.opacity = 0;
+                        cursor2 = false;
+                      }else {
+                        document.getElementById('cursor2').style.opacity = 1;
+                        cursor2 = true;
+                      }
+                    }, speed2);
+                </script>      
+            <!-- </div> -->
+        </div>
+        <!-- Prose 6 -->
+        <div id="prose6" class="six">
+            burning, burning,
+        </div>
+             
+        <!-- Eighth gif -->
+        <div id="someid8" class="rectangle8"> 
+            <div class="rectabs8">
+            <img id="example8" src="./example_gifs/eight.gif" />
+            </div>
+            <script type="text/javascript">
+                var sup8 = new SuperGif({ gif: document.getElementById('example8') } );
+                sup8.load();
+            </script>
+            <div class="buttonsPause">
+            <a href="javascript:;" onmousedown="sup8.pause(); return false;">⏸️</a> 
+            </div>
+            <br>
+            <div class="buttonsPlay">
+            <a href="javascript:;" onmousedown="sup8.play(); return false;">▶️</a> 
+            </div>
+            <div class="buttonsNext">
+            <a href="javascript:;" onmousedown="sup8.move_relative(1); return false;"> ⏭️ </a> 
+            </div>
+            <br>
+            <div class="buttonBack">
+            <a href="javascript:;" onmousedown="sup8.move_relative(-1); return false;"> ⏮️ </a>			
+            </div>
+        </div>
+        <!-- Ninth gif -->
+        <div id="someid9" class="rectangle9"> 
+            <div class="rectabs9">
+            <img id="example9" src="./example_gifs/9.gif" />
+            </div>
+            <script type="text/javascript">
+                var sup9 = new SuperGif({ gif: document.getElementById('example9') } );
+                sup9.load();
+            </script>
+            <div class="buttonsPause">
+            <a href="javascript:;" onmousedown="sup9.pause(); return false;">⏸️</a> 
+            </div>
+            <br>
+            <div class="buttonsPlay">
+            <a href="javascript:;" onmousedown="sup9.play(); return false;">▶️</a> 
+            </div>
+            <div class="rectabs9a">
+                <img id="example9a" src="./example_gifs/bn.jpg" width="243px" height="auto" />
+                </div>
+            <div class="buttonsNext">
+            <a href="javascript:;" onmousedown="sup9.move_relative(1); return false;"> ⏭️ </a> 
+            </div>
+            <br>
+            <div class="buttonBack">
+            <a href="javascript:;" onmousedown="sup9.move_relative(-1); return false;"> ⏮️ </a>			
+            </div>
+           
+        </div>
+        <!-- Tenth gif -->
+        <div id="someid10" class="rectangle10"> 
+            <div class="rectabs10">
+            <!-- <img id="example10" src="./example_gifs/fire.gif" /> -->
+            </div>
+            <script type="text/javascript">
+                var sup10 = new SuperGif({ gif: document.getElementById('example10') } );
+                sup10.load();
+            </script>
+            <div class="buttonsPause">
+            <a href="javascript:;" onmousedown="sup10.pause(); return false;">⏸️</a> 
+            </div>
+            <br>
+            <div class="buttonsPlay">
+            <a href="javascript:;" onmousedown="sup10.play(); return false;">▶️</a> 
+            </div>
+            <div class="buttonsNext">
+            <a href="javascript:;" onmousedown="sup10.move_relative(1); return false;"> ⏭️ </a> 
+            </div>
+            <br>
+            <div class="buttonBack">
+            <a href="javascript:;" onmousedown="sup10.move_relative(-1); return false;"> ⏮️ </a>			
+            </div>
+        </div>
+        <div id="prose7" class="seven">
+            burning ...<span id="cursor">_</span>
+                <script>
+                    var cursor = true;
+                    var speed = 150;        setInterval(() => {
+                      if(cursor) {
+                        document.getElementById('cursor').style.opacity = 0;
+                        cursor = false;
+                      }else {
+                        document.getElementById('cursor').style.opacity = 1;
+                        cursor = true;
+                      }
+                    }, speed);
+                </script>
+        </div>  
+        <div id="grad1"></div>
+        <div class="audio">
+            <!-- <audio autoplay="autoplay" loop>     
+            <source src="music.ogg" />      
+            <source src="example_gifs/poem_fire.mp3" />   
+            </audio>  -->
+        <!-- <audio Controls autoPlay loop>
+            <source src="example_gifs/poem_fire.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+          </audio> -->
+        </div>
+        <div class="credits">
+        <h3>Contributions</h3> <br>
+        </div>
+        <div class="credits-content">
+            
+            <b>Project by Artist Salik Ansari</b><br>
+            <b>Interaction Design by</b> <a href="https://malaydhamelia.github.io" target="blank">Malay Dhamelia</a><br>
+            <br>
+
+            <b>Blurring boundaries 2020</b><br>
+            Inlaks x Avid Learning <br>
+            <br>
+            ----------------------- <br>
+            <br>
+            <p>
+            <b>Artwork images contributed by:</b><br>
+            Arshi Ahmadzai for letter drawings <br>
+            Manjot Kaur for thumbprints extract <br>
+            Sanket Jadia for moon demolition photograph<br>
+            Poem extract from video 'Footnotes' by Amshu Chukki<br>
+            'Haadu Biddaga'/'Song-Slaughter', a poem by Mamta Sagar<br>
+            Translated into English by Dr. Vanamala Vishwanath<br></p>
+            <br>
+        </div>
+    </body>
+</html>

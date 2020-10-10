@@ -1,0 +1,270 @@
+.rectangle {
+position: relative;
+margin-top: 40px;
+margin-left: 50px; 
+height: 190px;
+width: 540px;
+background-color: #ebebeb;
+}
+
+.rectabs {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.buttonsPause {
+    position: absolute;
+    left: -30px;
+    top: 0px;
+}
+
+.buttonsPlay {
+    position: absolute;
+    left: -30px;
+    top: 20px;
+}
+
+/* buttons next and back */
+.buttonsNext {
+    position: absolute;
+    left: -30px;
+    top: 40px;
+}
+
+.buttonBack {
+    position: absolute;
+    left: -30px;
+    top: 60px;
+}
+
+.rectangle2 {
+    position: absolute;
+    top: 200px;
+    right: 30px;
+    height: 178px;
+    width: 489px;
+    background-color: #ebebeb;
+}
+
+.rectabs2 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.rectangle3 {
+    position: absolute;
+    top: 370px;
+    right: 650px;
+    height: 58px;
+    width: 123px;
+    background-color: #ebebeb;
+}
+
+.rectabs3 {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.rectangle4 {
+    position: absolute;
+    top: 370px;
+    right: 875px;
+    height: 107px;
+    width: 69px;
+    background-color: #ebebeb;
+}
+
+/* side */
+.rectangleside {
+    position: absolute;
+    top: 450px;
+    right: 50px;
+    height: 585px;
+    width: 233px;
+    background-color: #ffffff;
+}
+
+.rectabsside {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+/* over side */
+.rectabs4 {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.rectangle5 {
+    position: absolute;
+    top: 370px;
+    left: 250px;
+    height: 569px;
+    width: 86px;
+    background-color: #ebebeb;
+}
+
+.rectabs5 {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.rectangle6 {
+    position: absolute;
+    top: 1070px;
+    left: 95px;
+    height: 258px;
+    width: 522px;
+    background-color:rgba(255, 255, 255, 0);
+}
+
+.rectabs6 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.rectangle7 {
+    position: absolute;
+    top: 1470px;
+    left: 50px;
+    height: 636px;
+    width: 445px;
+    background-color: #f5c116;
+}
+
+.rectabs7 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+
+
+.rectangle8 {
+    position: absolute;
+    top: 1170px;
+    right: 30px;
+    height: 714px;
+    width: 515px;
+    background-color: #16f516;
+}
+/* yellow recatngle text */
+
+.rectangle-yellow {
+    position: absolute;
+    top: 1970px;
+    right: 30px;
+    height: 100px;
+    width: 475px;
+    background-color: #e2f516;
+    font-size: 30px;
+    font-style: italic;
+    color: #7d7d7d;
+    padding: 20px;
+    text-align: center;
+}
+
+.five {
+    position: absolute;
+    /* top: 1970px;
+    right: 100px;
+    background: yellow;
+    background-size: cover; */
+    /* font-size: 30px;
+    font-style: italic;
+    color: #7d7d7d; */
+
+}
+/*  */
+.rectabs8 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.rectangle9 {
+    position: absolute;
+    top: 2270px;
+    left: 50px;
+    height: 634px;
+    width: 1220px;
+    background-color:rgb(0, 0, 0, 0);
+}
+
+.rectabs9 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.rectabs9a {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.rectangle10 {
+    position: absolute;
+    display: block;
+    /* left: auto; */
+    /* margin-right: auto; */
+    background-position-x: center;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background: url(./example_gifs/fire.gif);
+    background-size: 99%;
+    background-repeat: no-repeat;
+    margin-top: 2795px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgb(0,0,0,0); */
+
+}
+
+.rectabs10 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+}
+/* The pop up css */
+
+.alert {
+    position: fixed;
+    top:10%;
+    left: 25%;
+    width: 700px;
+    height: 550px;
+    bottom: 100px;
+    /* padding: 20px; */
+    background-color: rgb(252, 215, 5);
+    color: rgb(0, 0, 0);
+    z-index: 10;
+  }
+  
+.closebtn {
+    margin-left: 25px;
+    color: rgb(142, 25, 25);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+.closebtn:hover {
+    color: black;
+  }
+
+.message {
+    padding-left: 50px;
+    padding-right: 50px;
+  }

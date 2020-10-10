@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Play on Malay Dhamelia</title>
@@ -6,27 +6,18 @@
     <description>Recent content in Play on Malay Dhamelia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jan 2015 13:09:13 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 02 Aug 2014 13:09:13 -0600</lastBuildDate>
     
 	<atom:link href="/play/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Lorem Ipsum of bfm</title>
-      <link>/play/auto/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      <title>Vyartha</title>
+      <link>/play/vyartha/</link>
+      <pubDate>Sat, 02 Aug 2014 13:09:13 -0600</pubDate>
       
-      <guid>/play/auto/</guid>
-      <description>Lorem ipsum , hope it works dolor sit amet autho, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum of bfm 2</title>
-      <link>/play/auto2/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
-      
-      <guid>/play/auto2/</guid>
-      <description>Lorem ipsum , hope it works dolor sit amet2, cons autho ectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>/play/vyartha/</guid>
+      <description>व्यर्थ // વ્યર્થ // vyarth (in vain) We called it Vyartha because this is the feeling that made us compose the book. It is an existential story of one Utc Singhal who did not fear the emotions and looked through the reality to find deeper meanings. He is a man of questions, and a courage to find answers. He does not shy away from the medium or the message. This is a story of Malay who was always curious about what goes in the mind of Utc.</description>
     </item>
     
   </channel>
