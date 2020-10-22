@@ -238,10 +238,10 @@ background-color: #ebebeb;
 
 .alert {
     position: fixed;
-    top:10%;
+    top:5%;
     left: 25%;
     width: 700px;
-    height: 550px;
+    height: 570px;
     bottom: 100px;
     /* padding: 20px; */
     background-color: rgb(252, 215, 5);
