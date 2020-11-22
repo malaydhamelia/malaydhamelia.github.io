@@ -18,7 +18,7 @@
   
   <url>
     <loc>/play/</loc>
-    <lastmod>2014-08-02T13:09:13-06:00</lastmod>
+    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -27,8 +27,33 @@
   </url>
   
   <url>
+    <loc>/play/ad-ventura/</loc>
+    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/art/</loc>
+    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-    <lastmod>2020-08-02T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/mcluhan/</loc>
+    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/satire/</loc>
+    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/web/</loc>
+    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -88,6 +113,11 @@
   
   <url>
     <loc>/categories/design/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/play/idc_gj/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url>
   
