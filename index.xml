@@ -153,5 +153,14 @@ I am a PhD student at IDC School of Design, IIT Bombay. I study games and play, 
       <description>Hello, I&amp;rsquo;m an example site that uses the Hugo Morphism theme.</description>
     </item>
     
+    <item>
+      <title>Love Death and Robots</title>
+      <link>/play/love-death-robots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/play/love-death-robots/</guid>
+      <description>Recently I was introduced to this nearly cult anthology produced by David Fincher (producer/director of some of my favourites &amp;ndash; Mindhunter, House of Cards, Fight Club, Alien, The Girl with the Dragon Tattoo, The Case of Benjamin Button) called Love, Death, and Robots (LD+R, in short). The anthology is a potpourri of animated stories of varying length and varying animation styles by various artists. Thanks to Vajra for introducing this to me!</description>
+    </item>
+    
   </channel>
 </rss>
