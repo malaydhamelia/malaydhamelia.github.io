@@ -120,6 +120,15 @@
     </item>
     
     <item>
+      <title>press</title>
+      <link>/categories/press/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/press/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>behavior change</title>
       <link>/categories/behavior-change/</link>
       <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
@@ -134,15 +143,6 @@
       <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/reflections/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>press</title>
-      <link>/categories/press/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/press/</guid>
       <description></description>
     </item>
     
