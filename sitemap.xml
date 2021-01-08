@@ -18,12 +18,22 @@
   
   <url>
     <loc>/play/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/bfm/</loc>
-    <lastmod>2020-07-22T23:10:14+05:30</lastmod>
+    <lastmod>2020-12-22T23:10:14+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/play/mouse-anxiety/</loc>
+    <lastmod>2021-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/bfm/aeon-laughter/</loc>
+    <lastmod>2020-12-22T23:10:14+05:30</lastmod>
   </url>
   
   <url>
@@ -102,11 +112,6 @@
   </url>
   
   <url>
-    <loc>/bfm/aeon-laughter/</loc>
-    <lastmod>2020-07-22T23:10:14+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>/play/amabie/</loc>
     <lastmod>2020-05-16T13:09:13-06:00</lastmod>
   </url>
@@ -154,6 +159,11 @@
   <url>
     <loc>/categories/reflections/</loc>
     <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/10/15/hello-tuftesque/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>

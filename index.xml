@@ -23,6 +23,24 @@ Yesterday marked the completion of four months of staying in. After IITB asked s
     </item>
     
     <item>
+      <title>Agency, Waiting time, Serendipity</title>
+      <link>/play/mouse-anxiety/</link>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/play/mouse-anxiety/</guid>
+      <description>WIP Post Now it is obvious and evident that the cause of our doom is amusement. There are infinite mechanics to engage us in this wormhole of entertainment. YT&amp;apos;s autoplay, IGTV, Fleets, live session on reddit, decreasing idle time in games, and so forth. If there were some study to measure serendipitous information acquisition and give out a score, I am sure, pre-internet era would score less on the score.</description>
+    </item>
+    
+    <item>
+      <title>Laughter is vital</title>
+      <link>/bfm/aeon-laughter/</link>
+      <pubDate>Tue, 22 Dec 2020 23:10:14 +0530</pubDate>
+      
+      <guid>/bfm/aeon-laughter/</guid>
+      <description>Summary&amp;ndash;The article &amp;#8853; The article is originally published in Aeon by Emily Herring   talks about the necessary conditions of comedy (implied to laughter) as per Henri Bergson&amp;rsquo;s leitmotiv of humor. It begins with Henri&amp;rsquo;s three conditions essential for laughter to emerge: humans only laugh at human-like attributes, emotions are foe of laughter, and laughter needs a social echo. The article then takes a steep jump in time where Bergson&amp;rsquo;s discovery of letimotiv of laughter is described.</description>
+    </item>
+    
+    <item>
       <title>Ad-ventura</title>
       <link>/play/ad-ventura/</link>
       <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
@@ -48,15 +66,6 @@ This human trait of finding value in what is limited has primal roots. Ancient t
       
       <guid>/2020/07/29/resources-to-hack-the-research-workflow/</guid>
       <description>ChangeLog: 20-Sep-2020: Added python script to highlight pdf annotations Added Zettelkasten based foam-bubble 29-Jul-2020: Added connectedpapers.com 14-Jul-2020: Added Tiddlywiki 14-Mar-2020: Highly.co status as defunct. Twitter acquired highly.co (https://techcrunch.com/2019/04/17/twitter-highly/) 19-August-2019: Made the list The list contains a free softwares that aids in conducting research systematically. I believe that a document once read, a video once watched should be documented and stored systematically. Since consuming a stimulating piece of writing forms multiple connections in a researcher&amp;rsquo;s head, the storage system should not only store the documents and it&amp;rsquo;s whereabouts, but also should store the connections it has once formed.</description>
-    </item>
-    
-    <item>
-      <title>Laughter is vital</title>
-      <link>/bfm/aeon-laughter/</link>
-      <pubDate>Wed, 22 Jul 2020 23:10:14 +0530</pubDate>
-      
-      <guid>/bfm/aeon-laughter/</guid>
-      <description>Summary&amp;ndash;The article &amp;#8853; The article is originally published in Aeon by Emily Herring   talks about the necessary conditions of comedy (implied to laughter) as per Henri Bergson&amp;rsquo;s leitmotiv of humor. It begins with Henri&amp;rsquo;s three conditions essential for laughter to emerge: humans only laugh at human-like attributes, emotions are foe of laughter, and laughter needs a social echo. The article then takes a steep jump in time where Bergson&amp;rsquo;s discovery of letimotiv of laughter is described.</description>
     </item>
     
     <item>
@@ -104,6 +113,17 @@ The post is structured as follows:
       
       <guid>/2018/08/26/is-behaviour-change-a-wicked-problem/</guid>
       <description>Context or where this blog comes from? June 26th, 2018 is when I defended my Master&amp;rsquo;s thesis. The topic was chosen with a hope to do something practically impactful in the domain of behaviour change. So, I chose both of my projects (MDP2 and MDP3) in the domain of behaviour change /1 &amp;#8853; MDP = Masters Design Project. MDP2 was &#34;Design interventions for improving handwashing behaviour; MDP3 was &#34;Design interventions for raising awareness of sound pollution&#34;</description>
+    </item>
+    
+    <item>
+      <title>Hello Tuftesque</title>
+      <link>/2017/10/15/hello-tuftesque/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/10/15/hello-tuftesque/</guid>
+      <description>This is an abridged version of the blogpost Introducing The Tuftesque Blogdown Theme on livefreeordichotomize.com.
+Customizing It would be pretty lame if that was it, wouldn’t it? Fear not, you can tinker with it to make it your own.
+Side Notes: We all know why you’re here: the sidenotes. This is rather easy. Just make sure you have the tufte package installed and then, in an inline r chunk, wherever you want to put a side note call the following.</description>
     </item>
     
     <item>
