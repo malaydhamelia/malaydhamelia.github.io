@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2020/07/20/now-no.1/</loc>
+    <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/now/</loc>
     <lastmod>2016-05-05T21:48:51-07:00</lastmod>
   </url>
@@ -112,17 +117,27 @@
   </url>
   
   <url>
+    <loc>/categories/behavior-change/</loc>
+    <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/design/</loc>
+    <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/reflections/</loc>
+    <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/play/amabie/</loc>
     <lastmod>2020-05-16T13:09:13-06:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/analysis/</loc>
-    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/design/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -147,17 +162,7 @@
   </url>
   
   <url>
-    <loc>/categories/behavior-change/</loc>
-    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/2018/08/26/is-behaviour-change-a-wicked-problem/</loc>
-    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/reflections/</loc>
     <lastmod>2018-08-26T00:00:00+00:00</lastmod>
   </url>
   
