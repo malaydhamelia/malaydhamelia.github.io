@@ -52,9 +52,34 @@ if (!doNotTrack) {
 <link rel="stylesheet" href="/css/tuftesque.css">
 <style>
 body {
-  
-    background-color: #f2f2f2;
-  
+  background-color: #f2f2f2;
+}
+.cloud-nav {
+  position: fixed;
+  top: 1.5rem;
+  right: 1.5rem;
+  max-width: 200px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #ddd;
+  border-radius: 1.25rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #3a4145;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04);
+  z-index: 1000;
+}
+.cloud-nav a {
+  display: block;
+  color: #ff006a;
+  text-decoration: none;
+  margin-bottom: 0.4rem;
+}
+.cloud-nav a:last-child {
+  margin-bottom: 0;
+}
+.cloud-nav a:hover {
+  text-decoration: underline;
 }
 </style>
 
@@ -70,6 +95,12 @@ body {
 
 
 <body>
+<div class="cloud-nav">
+  <a href="/about/">About</a>
+  <a href="/work/">Work</a>
+  <a href="/play/">Play</a>
+  <a href="/post/">Archives</a>
+</div>
 
 <div id="layout" class="pure-g">
 <article class="pure-u-1">
