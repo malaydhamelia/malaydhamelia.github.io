@@ -130,6 +130,47 @@
       margin-bottom: 1rem;
     }
 
+    .links {
+      position: absolute;
+      top: 3rem;
+      right: 3rem;
+      max-width: 220px;
+      font-size: 0.95rem;
+      line-height: 1.4;
+      color: #060606;
+    }
+
+    .links p {
+      margin: 0;
+      text-align: right;
+    }
+
+    .links a {
+      display: inline-block;
+      text-decoration: none;
+      color: #060606;
+      margin-bottom: 0.35rem;
+      white-space: nowrap;
+      font-size: 0.9rem;
+    }
+
+    .links a:nth-child(even) {
+      color: #ff006a;
+    }
+
+    @media (max-width: 840px) {
+      .links {
+        position: static;
+        max-width: none;
+        width: auto;
+        margin: 1.5rem auto 0;
+        text-align: center;
+      }
+      .links p {
+        text-align: center;
+      }
+    }
+
     @media (max-width: 640px) {
       body {
         padding: 1.5rem;
@@ -142,6 +183,13 @@
   </style>
 </head>
 <body>
+  <div class="links">
+    <p>
+      <a href="index.html">Home</a> <a href="about.html">About</a><br>
+      <a href="work.html">Work</a> <a href="work.html">Game Readings</a><br>
+      <a href="paper.html">Paper Readings</a> <a href="book.html">Book Readings</a>
+    </p>
+  </div>
   <main class="container">
     <div class="banner">
       <div>
@@ -170,3 +218,5 @@
   </main>
 </body>
 </html>
+
+
