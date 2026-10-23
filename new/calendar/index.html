@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Calendar Heatmap</title>
+<meta name="description" content="How busy each day is, month by month.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400..600&display=swap">
+<style>
+/* Layout: one month at a time as a 7-column grid. Header with month navigation on top, day summary underneath. */
+:root {
+  color-scheme: light;
+  --bg: #F4F6F9;
+  --surface: #FFFFFF;
+  --fg: #18202B;
+  --muted: #5E6A7A;
+  --line: #D5DBE3;
+  --accent: #2B55E0;
+  --ink: #18202B;
+  --warn: #B3341B;
+  /* heat ramp: fill (c) and text on that fill (k), 0 events up to 6+ */
+  --c0: #E4E9EF; --k0: #5A6676;
+  --c1: #FFE6AE; --k1: #4A3A10;
+  --c2: #FFC863; --k2: #3F2D05;
+  --c3: #F6963C; --k3: #331A02;
+  --c4: #C94A1F; --k4: #FFFFFF;
+  --c5: #8F2118; --k5: #FFFFFF;
+  --display: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif;
+  --body: 'Public Sans', 'Segoe UI', system-ui, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11151B; --surface: #181D25; --fg: #E7ECF3; --muted: #98A4B5; --line: #2A323E;
+    --accent: #86A2FF; --ink: #E7ECF3; --warn: #FF8C70;
+    --c0: #1F252E; --k0: #8794A3;
+    --c1: #3E3521; --k1: #F1DDA8;
+    --c2: #6E5620; --k2: #FFEFC4;
+    --c3: #A8692A; --k3: #FFF6EA;
+    --c4: #E5582A; --k4: #2A0B06;
+    --c5: #FF7A5C; --k5: #2A0B06;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11151B; --surface: #181D25; --fg: #E7ECF3; --muted: #98A4B5; --line: #2A323E;
+  --accent: #86A2FF; --ink: #E7ECF3; --warn: #FF8C70;
+  --c0: #1F252E; --k0: #8794A3;
+  --c1: #3E3521; --k1: #F1DDA8;
+  --c2: #6E5620; --k2: #FFEFC4;
+  --c3: #A8692A; --k3: #FFF6EA;
+  --c4: #E5582A; --k4: #2A0B06;
+  --c5: #FF7A5C; --k5: #2A0B06;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--body);
+  font-size: 15px;
+  line-height: 1.45;
+  padding-block: 24px 40px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.app { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+
+.head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 14px 20px; }
+.title { min-width: 0; }
+h1 {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(2.1rem, 8vw, 3.2rem);
+  line-height: 1;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+h1 .year { font-weight: 400; color: var(--muted); font-variant-numeric: tabular-nums; }
+.stats { margin: 10px 0 0; min-height: 1.45em; display: flex; flex-wrap: wrap; gap: 2px 16px; font-family: var(--mono); font-size: 12.5px; color: var(--muted); }
+.stats b { color: var(--fg); font-weight: 500; }
+
+.controls { display: flex; gap: 6px; }
+.btn {
+  font: inherit; font-size: 14px; font-weight: 500;
+  min-height: 40px; min-width: 40px; padding: 0 14px;
+  display: inline-flex; align-items: center; justify-content: center;
+  color: var(--fg); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 8px;
+  cursor: pointer;
+}
+.btn.icon { padding: 0; width: 40px; }
+.btn:hover { border-color: var(--muted); }
+.btn:active { background: var(--c0); }
+.btn.small { min-height: 32px; padding: 0 12px; font-size: 13px; }
+.btn:focus-visible, .day:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.status {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 14px;
+  padding: 10px 14px; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--surface); color: var(--muted); font-size: 14px;
+}
+.status.err { border-color: var(--warn); color: var(--fg); }
+.status span { min-width: 0; overflow-wrap: anywhere; }
+
+.stage { display: flex; flex-direction: column; gap: 6px; }
+.weekdays, .grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 5px; }
+.weekdays span {
+  text-align: center; font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--muted);
+}
+.grid { transition: opacity .2s ease; }
+.grid.busy .day { opacity: .55; }
+.pad { display: block; }
+
+.day {
+  appearance: none; border: 0; margin: 0;
+  display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start;
+  aspect-ratio: 1 / 0.92; min-height: 46px; padding: 5px 6px;
+  border-radius: 6px; cursor: pointer;
+  font-family: var(--mono); text-align: left;
+  transition: opacity .2s ease;
+}
+.day:hover { outline: 2px solid var(--line); outline-offset: 1px; }
+.day .num { font-size: 12px; font-weight: 400; font-variant-numeric: tabular-nums; opacity: .85; }
+.day .cnt { align-self: flex-end; font-size: 15px; font-weight: 500; line-height: 1; font-variant-numeric: tabular-nums; }
+.day.today { box-shadow: inset 0 0 0 2px var(--ink); }
+.day.today .num { font-weight: 500; opacity: 1; }
+.day.sel { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.h0 { background: var(--c0); color: var(--k0); }
+.h1 { background: var(--c1); color: var(--k1); }
+.h2 { background: var(--c2); color: var(--k2); }
+.h3 { background: var(--c3); color: var(--k3); }
+.h4 { background: var(--c4); color: var(--k4); }
+.h5 { background: var(--c5); color: var(--k5); }
+/* Days outside the range the data file covers */
+.day.off { background: transparent; color: var(--muted); box-shadow: inset 0 0 0 1px var(--line); }
+.day.off.today { box-shadow: inset 0 0 0 2px var(--ink); }
+
+.legend { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
+.legend .sw { min-width: 32px; padding: 3px 8px; text-align: center; border-radius: 5px; font-family: var(--mono); font-size: 11px; }
+.legend .unit { margin-left: 6px; }
+
+.detail { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; min-width: 0; }
+.detail .dh { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; }
+.detail h2 { margin: 0; font-family: var(--display); font-weight: 600; font-size: 1.2rem; letter-spacing: -0.01em; }
+.detail .n { font-family: var(--mono); font-size: 12.5px; color: var(--muted); }
+.detail .hint { margin: 10px 0 0; color: var(--muted); }
+.foot { margin: 0; font-size: 12.5px; color: var(--muted); }
+
+@media (max-width: 480px) {
+  .weekdays, .grid { gap: 4px; }
+  .day { padding: 4px 5px; }
+  .day .cnt { font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .grid, .day { transition: none; }
+}
+</style>
+</head>
+<body>
+
+<main class="app">
+  <header class="head">
+    <div class="title">
+      <h1 aria-live="polite"><span id="mName"></span> <span id="mYear" class="year"></span></h1>
+      <p id="stats" class="stats"></p>
+    </div>
+    <div class="controls" role="group" aria-label="Change month">
+      <button id="prev" class="btn icon" type="button" aria-label="Previous month">
+        <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M12.5 4.5 7 10l5.5 5.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button id="today" class="btn" type="button">Today</button>
+      <button id="next" class="btn icon" type="button" aria-label="Next month">
+        <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button id="refresh" class="btn icon" type="button" aria-label="Reload the latest counts">
+        <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M16 10a6 6 0 1 1-1.9-4.4M16 3.5v3.6h-3.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div id="status" class="status" role="status" hidden>
+    <span id="statusMsg"></span>
+    <button id="statusBtn" class="btn small" type="button" hidden>Try again</button>
+  </div>
+
+  <div id="stage" class="stage">
+    <div class="weekdays" aria-hidden="true">
+      <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+    </div>
+    <div id="grid" class="grid busy"></div>
+  </div>
+
+  <div class="legend" aria-label="Events per day">
+    <span>Fewer</span>
+    <span class="sw h0">0</span><span class="sw h1">1</span><span class="sw h2">2</span><span class="sw h3">3</span><span class="sw h4">4–5</span><span class="sw h5">6+</span>
+    <span>More</span>
+    <span class="unit">events per day</span>
+  </div>
+
+  <section id="detail" class="detail" aria-live="polite"></section>
+  <p id="foot" class="foot"></p>
+</main>
+
+<script>
+(function () {
+  // The page reads busy.json from the same folder. A GitHub Action keeps that file up to date.
+  var DATA_URL = 'busy.json';
+
+  var MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  var WEEKDAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function $(id) { return document.getElementById(id); }
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+  function pad(n) { return String(n).padStart(2, '0'); }
+  function key(y, m, d) { return y + '-' + pad(m + 1) + '-' + pad(d); }
+  function parseKey(k) { var p = k.split('-').map(Number); return { y: p[0], m: p[1] - 1, d: p[2] }; }
+  function daysInMonth(y, m) { return new Date(Date.UTC(y, m + 1, 0)).getUTCDate(); }
+  function dow(y, m, d) { return new Date(Date.UTC(y, m, d)).getUTCDay(); }
+  function plural(n, one, many) { return n + ' ' + (n === 1 ? one : many); }
+  function fmtKey(k) { var p = parseKey(k); return p.d + ' ' + MONTHS[p.m].slice(0, 3) + ' ' + p.y; }
+
+  // Time zone: the one in busy.json once loaded, else the browser's.
+  var tz, dayFmt;
+  function setTz(zone) {
+    tz = zone;
+    try {
+      dayFmt = new Intl.DateTimeFormat('en-US', { timeZone: zone, year: 'numeric', month: '2-digit', day: '2-digit' });
+    } catch (e) {
+      tz = undefined;
+      dayFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: '2-digit', day: '2-digit' });
+    }
+  }
+  function dayOf(date) {
+    var parts = dayFmt.formatToParts(date), o = {};
+    parts.forEach(function (p) { o[p.type] = p.value; });
+    return o.year + '-' + o.month + '-' + o.day;
+  }
+  var guess;
+  try { guess = Intl.DateTimeFormat().resolvedOptions().timeZone; } catch (e) { guess = undefined; }
+  setTz(guess);
+
+  var nowKey = dayOf(new Date());
+  var np = parseKey(nowKey);
+  var state = { y: np.y, m: np.m, selected: nowKey, data: null, loading: false, error: null };
+
+  function level(n) { return n <= 0 ? 0 : n <= 3 ? n : n <= 5 ? 4 : 5; }
+
+  // ---- Data ------------------------------------------------------------------
+  function hasRange() { return !!(state.data && state.data.from && state.data.to); }
+  function covered(k) { return hasRange() && k >= state.data.from && k <= state.data.to; }
+  function countOf(k) { var v = state.data && state.data.days && state.data.days[k]; return typeof v === 'number' ? v : 0; }
+  function monthOutside(y, m) {
+    if (!hasRange()) return false;
+    return key(y, m, daysInMonth(y, m)) < state.data.from || key(y, m, 1) > state.data.to;
+  }
+
+  async function loadData() {
+    state.loading = true; state.error = null;
+    render();
+    try {
+      var res = await fetch(DATA_URL, { cache: 'no-cache' });
+      if (!res.ok) throw { code: 'http', status: res.status };
+      var j = await res.json();
+      if (!j || typeof j !== 'object') throw { code: 'bad_shape' };
+      state.data = j;
+      if (j.timeZone && j.timeZone !== tz) setTz(j.timeZone);
+    } catch (e) {
+      state.error = (e && e.code) ? e : { code: 'network' };
+    }
+    state.loading = false;
+    render();
+  }
+
+  // ---- Rendering ---------------------------------------------------------------
+  function renderStatus() {
+    var msg = null, isErr = false, act = false;
+    if (state.error) {
+      isErr = true; act = true;
+      msg = state.error.code === 'http' && state.error.status === 404
+        ? 'The counts file (busy.json) wasn’t found next to this page.'
+        : 'Couldn’t load the calendar counts.';
+    } else if (state.loading && !state.data) {
+      msg = 'Loading…';
+    } else if (state.data && !hasRange()) {
+      msg = 'No data yet. Run the “Update calendar counts” workflow once from the Actions tab of the repository.';
+    } else if (state.data && monthOutside(state.y, state.m)) {
+      msg = 'No data for this month. Counts cover ' + fmtKey(state.data.from) + ' to ' + fmtKey(state.data.to) + '.';
+    }
+    $('status').hidden = !msg;
+    $('status').classList.toggle('err', isErr);
+    $('statusMsg').textContent = msg || '';
+    $('statusBtn').hidden = !act;
+  }
+
+  function renderHeader() {
+    $('mName').textContent = MONTHS[state.m];
+    $('mYear').textContent = String(state.y);
+  }
+
+  function renderStats() {
+    var s = $('stats');
+    s.textContent = '';
+    if (!hasRange() || monthOutside(state.y, state.m)) return;
+    var n = daysInMonth(state.y, state.m), total = 0, active = 0, best = null, bestN = 0;
+    for (var d = 1; d <= n; d++) {
+      var k = key(state.y, state.m, d);
+      if (!covered(k)) continue;
+      var c = countOf(k);
+      total += c;
+      if (c > 0) active++;
+      if (c > bestN) { bestN = c; best = d; }
+    }
+    function stat(parts) {
+      var span = document.createElement('span');
+      parts.forEach(function (p) { span.appendChild(p); });
+      s.appendChild(span);
+    }
+    function txt(t) { return document.createTextNode(t); }
+    function b(t) { return el('b', null, t); }
+    if (total === 0) { stat([txt('No events this month')]); return; }
+    stat([b(String(total)), txt(total === 1 ? ' event' : ' events')]);
+    stat([b(String(active)), txt(active === 1 ? ' busy day' : ' days with events')]);
+    stat([txt('Busiest '), b(WEEKDAYS[dow(state.y, state.m, best)].slice(0, 3) + ' ' + best), txt(' · ' + bestN)]);
+  }
+
+  function renderGrid() {
+    var y = state.y, m = state.m;
+    var grid = $('grid');
+    grid.textContent = '';
+    grid.classList.toggle('busy', !state.data);
+    var lead = dow(y, m, 1), n = daysInMonth(y, m);
+    for (var i = 0; i < lead; i++) {
+      var padEl = el('span', 'pad');
+      padEl.setAttribute('aria-hidden', 'true');
+      grid.appendChild(padEl);
+    }
+    for (var d = 1; d <= n; d++) {
+      var k = key(y, m, d);
+      var has = covered(k), c = has ? countOf(k) : 0;
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'day ' + (has ? 'h' + level(c) : 'off') + (k === nowKey ? ' today' : '') + (k === state.selected ? ' sel' : '');
+      b.dataset.day = k;
+      b.setAttribute('aria-pressed', k === state.selected ? 'true' : 'false');
+      b.setAttribute('aria-label', d + ' ' + MONTHS[m] + (k === nowKey ? ', today' : '') + ', ' + (!state.data ? 'loading' : !has ? 'no data' : c === 0 ? 'no events' : plural(c, 'event', 'events')));
+      b.appendChild(el('span', 'num', String(d)));
+      if (has && c > 0) b.appendChild(el('span', 'cnt', String(c)));
+      grid.appendChild(b);
+    }
+  }
+
+  function renderDetail() {
+    var box = $('detail');
+    box.textContent = '';
+    var k = state.selected;
+    if (!k) { box.appendChild(el('p', 'hint', 'Select a day to see how busy it is.')); return; }
+    var p = parseKey(k);
+    var has = covered(k), c = has ? countOf(k) : 0;
+    var head = el('div', 'dh');
+    head.appendChild(el('h2', null, WEEKDAYS[dow(p.y, p.m, p.d)] + ', ' + p.d + ' ' + MONTHS[p.m]));
+    if (has) head.appendChild(el('span', 'n', c === 0 ? 'No events' : plural(c, 'event', 'events')));
+    box.appendChild(head);
+    var hint;
+    if (!state.data) hint = 'The count appears once the data has loaded.';
+    else if (!has) hint = 'No data for this day.';
+    else if (c === 0) hint = 'Nothing scheduled.';
+    else hint = 'Only the number of events is shown. Titles and details are not published.';
+    box.appendChild(el('p', 'hint', hint));
+  }
+
+  function renderFoot() {
+    var t = 'Number of calendar events per day.';
+    if (state.data && state.data.updated) t += ' Updated ' + fmtKey(state.data.updated) + '.';
+    $('foot').textContent = t + ' Times in ' + (tz || 'your local time zone') + '.';
+  }
+
+  function render() {
+    nowKey = dayOf(new Date());
+    renderHeader();
+    renderStatus();
+    renderStats();
+    renderGrid();
+    renderDetail();
+    renderFoot();
+  }
+
+  // ---- Navigation --------------------------------------------------------------
+  function setMonth(y, m, dir) {
+    state.y = y; state.m = m;
+    var t = parseKey(dayOf(new Date()));
+    state.selected = (t.y === y && t.m === m) ? key(t.y, t.m, t.d) : null;
+    render();
+    if (dir && !reduced && $('stage').animate) {
+      $('stage').animate(
+        [{ opacity: 0, transform: 'translateX(' + (dir * 24) + 'px)' }, { opacity: 1, transform: 'none' }],
+        { duration: 180, easing: 'ease-out' }
+      );
+    }
+  }
+  function shift(n) {
+    var t = new Date(Date.UTC(state.y, state.m + n, 1));
+    setMonth(t.getUTCFullYear(), t.getUTCMonth(), n > 0 ? 1 : -1);
+  }
+  function goToday() {
+    var t = parseKey(dayOf(new Date()));
+    var diff = (t.y * 12 + t.m) - (state.y * 12 + state.m);
+    setMonth(t.y, t.m, diff === 0 ? 0 : (diff > 0 ? 1 : -1));
+  }
+
+  $('prev').addEventListener('click', function () { shift(-1); });
+  $('next').addEventListener('click', function () { shift(1); });
+  $('today').addEventListener('click', goToday);
+  $('refresh').addEventListener('click', loadData);
+  $('statusBtn').addEventListener('click', loadData);
+
+  $('grid').addEventListener('click', function (e) {
+    var b = e.target.closest ? e.target.closest('.day') : null;
+    if (!b) return;
+    state.selected = b.dataset.day;
+    $('grid').querySelectorAll('.day').forEach(function (x) {
+      var on = x === b;
+      x.classList.toggle('sel', on);
+      x.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+    renderDetail();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    var tag = e.target && e.target.tagName;
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+    if (e.key === 'ArrowLeft') { shift(e.shiftKey ? -12 : -1); e.preventDefault(); }
+    else if (e.key === 'ArrowRight') { shift(e.shiftKey ? 12 : 1); e.preventDefault(); }
+    else if (e.key === 'PageUp') { shift(-1); e.preventDefault(); }
+    else if (e.key === 'PageDown') { shift(1); e.preventDefault(); }
+  });
+
+  // Swipe and horizontal trackpad scroll move between months.
+  var stage = $('stage'), tx = null, ty = null, wheelLock = 0;
+  stage.addEventListener('touchstart', function (e) {
+    if (e.touches.length !== 1) { tx = null; return; }
+    tx = e.touches[0].clientX; ty = e.touches[0].clientY;
+  }, { passive: true });
+  stage.addEventListener('touchend', function (e) {
+    if (tx === null) return;
+    var t = e.changedTouches[0], dx = t.clientX - tx, dy = t.clientY - ty;
+    tx = null;
+    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) shift(dx < 0 ? 1 : -1);
+  }, { passive: true });
+  stage.addEventListener('wheel', function (e) {
+    if (Math.abs(e.deltaX) < 40 || Math.abs(e.deltaX) < Math.abs(e.deltaY)) return;
+    var now = Date.now();
+    if (now < wheelLock) return;
+    wheelLock = now + 450;
+    shift(e.deltaX > 0 ? 1 : -1);
+  }, { passive: true });
+
+  // ---- Boot --------------------------------------------------------------------
+  render();
+  loadData();
+})();
+</script>
+</body>
+</html>
