@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>श्री हनुमान चालीसा</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg1: #0a0a0a;
+    --bg2: #000000;
+    --saffron: #ffffff;
+    --gold: #ffffff;
+    --cream: #ffffff;
+    --muted: #a8a8a8;
+    --panel: rgba(255, 255, 255, 0.06);
+    --line: rgba(255, 255, 255, 0.28);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html, body { height: 100%; }
+  body {
+    font-family: "Noto Serif Devanagari", "Mangal", "Kokila", "Nirmala UI", "Devanagari Sangam MN", serif;
+    color: var(--cream);
+    background: radial-gradient(ellipse at 50% 0%, var(--bg1) 0%, var(--bg2) 75%) fixed;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  /* ---------- top bar ---------- */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 18px 10px;
+    padding-top: max(14px, env(safe-area-inset-top));
+  }
+  .brand { font-size: 1.05rem; color: var(--gold); font-weight: 600; letter-spacing: .02em; }
+  .badge {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: .8rem;
+    color: var(--cream);
+    background: var(--panel);
+    border: 1px solid var(--line);
+    padding: 6px 12px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .badge b { color: var(--gold); font-size: .95rem; }
+  .badge.bump { animation: bump .6s ease; }
+  @keyframes bump { 0%{transform:scale(1)} 40%{transform:scale(1.18); border-color: var(--gold)} 100%{transform:scale(1)} }
+
+  .progress { height: 3px; background: rgba(255,255,255,.08); margin: 0 18px; border-radius: 3px; overflow: hidden; }
+  .progress i { display: block; height: 100%; width: 0; background: #ffffff; transition: width .35s ease; }
+
+  /* ---------- slides ---------- */
+  .stage { flex: 1; position: relative; overflow: hidden; }
+  .track { display: flex; height: 100%; transition: transform .45s cubic-bezier(.22,.8,.26,1); will-change: transform; }
+  .slide {
+    flex: 0 0 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 26px;
+    overflow-y: auto;
+  }
+  .label {
+    color: var(--saffron);
+    font-size: clamp(1rem, 2.6vw, 1.3rem);
+    letter-spacing: .08em;
+    margin-bottom: 26px;
+    display: flex; align-items: center; gap: 14px;
+  }
+  .label::before, .label::after { content: ""; width: 38px; height: 1px; background: var(--line); }
+  .verse { line-height: 1.75; font-size: clamp(1.55rem, 5.2vw, 2.7rem); font-weight: 600; max-width: 900px; }
+  .verse span { display: block; }
+  .verse span + span { margin-top: .35em; }
+  .verse .gold { color: var(--gold); }
+
+  /* intro + end */
+  .title { font-size: clamp(2.4rem, 9vw, 4.4rem); color: var(--gold); font-weight: 700; line-height: 1.2; text-shadow: none; }
+  .sub { color: var(--muted); margin-top: 8px; font-size: clamp(1rem, 3vw, 1.35rem); }
+  .om { font-size: clamp(2.4rem, 8vw, 3.6rem); color: var(--saffron); margin-bottom: 14px; }
+  .hint { margin-top: 26px; color: var(--muted); font-size: .95rem; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6; }
+  .stats { margin-top: 26px; display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px 22px; min-width: 130px; }
+  .stat .n { font-size: 2rem; color: var(--gold); font-weight: 700; }
+  .stat .t { font-size: .78rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+  .counted { margin-top: 18px; color: #ffffff; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: 1rem; }
+
+  button {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    cursor: pointer;
+    border: 0;
+    border-radius: 999px;
+    font-size: 1rem;
+    padding: 13px 30px;
+    transition: transform .15s ease, opacity .2s ease, background .2s;
+  }
+  button:active { transform: scale(.96); }
+  .primary { background: #ffffff; color: #000000; font-weight: 700; margin-top: 28px; }
+  .ghost { background: transparent; color: var(--muted); border: 1px solid var(--line); font-size: .85rem; padding: 9px 18px; margin-top: 14px; }
+  .ghost:hover { color: var(--cream); }
+
+  /* ---------- bottom nav ---------- */
+  footer {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 18px 16px;
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+    gap: 12px;
+  }
+  .nav { background: var(--panel); border: 1px solid var(--line); color: var(--cream); min-width: 104px; }
+  .nav:disabled { opacity: .25; cursor: default; }
+  .nav.next { background: #ffffff; color: #000000; font-weight: 700; border: 0; }
+  .pos { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--muted); font-size: .9rem; text-align: center; }
+  .slide.hide-nav-hint + .x {}
+  @media (max-width: 480px) { .nav { min-width: 84px; padding: 12px 18px; } .brand { font-size: .95rem; } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">॥ श्री हनुमान चालीसा ॥</div>
+  <div class="badge" id="badge">Total chants: <b id="totalBadge">0</b></div>
+</header>
+<div class="progress"><i id="bar"></i></div>
+
+<main class="stage">
+  <div class="track" id="track"></div>
+</main>
+
+<footer>
+  <button class="nav" id="prev">&larr; Previous</button>
+  <div class="pos" id="pos"></div>
+  <button class="nav next" id="next">Next &rarr;</button>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ================= TEXT ================= */
+  const DOHA_OPEN = [
+    ["श्रीगुरु चरन सरोज रज, निज मनु मुकुरु सुधारि।",
+     "बरनउँ रघुबर बिमल जसु, जो दायकु फल चारि॥"],
+    ["बुद्धिहीन तनु जानिके, सुमिरौं पवन-कुमार।",
+     "बल बुद्धि बिद्या देहु मोहिं, हरहु कलेस बिकार॥"]
+  ];
+
+  const CHAUPAI = [
+    ["जय हनुमान ज्ञान गुन सागर", "जय कपीस तिहुँ लोक उजागर"],
+    ["राम दूत अतुलित बल धामा", "अंजनि-पुत्र पवनसुत नामा"],
+    ["महाबीर बिक्रम बजरंगी", "कुमति निवार सुमति के संगी"],
+    ["कंचन बरन बिराज सुबेसा", "कानन कुंडल कुंचित केसा"],
+    ["हाथ बज्र औ ध्वजा बिराजै", "काँधे मूँज जनेऊ साजै"],
+    ["शंकर सुवन केसरी नंदन", "तेज प्रताप महा जग बंदन"],
+    ["बिद्यावान गुनी अति चातुर", "राम काज करिबे को आतुर"],
+    ["प्रभु चरित्र सुनिबे को रसिया", "राम लखन सीता मन बसिया"],
+    ["सूक्ष्म रूप धरि सियहिं दिखावा", "बिकट रूप धरि लंक जरावा"],
+    ["भीम रूप धरि असुर सँहारे", "रामचंद्र के काज सँवारे"],
+    ["लाय सजीवन लखन जियाये", "श्रीरघुबीर हरषि उर लाये"],
+    ["रघुपति कीन्ही बहुत बड़ाई", "तुम मम प्रिय भरतहि सम भाई"],
+    ["सहस बदन तुम्हरो जस गावैं", "अस कहि श्रीपति कंठ लगावैं"],
+    ["सनकादिक ब्रह्मादि मुनीसा", "नारद सारद सहित अहीसा"],
+    ["जम कुबेर दिगपाल जहाँ ते", "कबि कोबिद कहि सके कहाँ ते"],
+    ["तुम उपकार सुग्रीवहिं कीन्हा", "राम मिलाय राज पद दीन्हा"],
+    ["तुम्हरो मंत्र बिभीषन माना", "लंकेश्वर भए सब जग जाना"],
+    ["जुग सहस्र जोजन पर भानू", "लील्यो ताहि मधुर फल जानू"],
+    ["प्रभु मुद्रिका मेलि मुख माहीं", "जलधि लाँघि गये अचरज नाहीं"],
+    ["दुर्गम काज जगत के जेते", "सुगम अनुग्रह तुम्हरे तेते"],
+    ["राम दुआरे तुम रखवारे", "होत न आज्ञा बिनु पैसारे"],
+    ["सब सुख लहै तुम्हारी सरना", "तुम रक्षक काहू को डर ना"],
+    ["आपन तेज सम्हारो आपै", "तीनों लोक हाँक तें काँपै"],
+    ["भूत पिसाच निकट नहिं आवै", "महाबीर जब नाम सुनावै"],
+    ["नासै रोग हरै सब पीरा", "जपत निरंतर हनुमत बीरा"],
+    ["संकट तें हनुमान छुड़ावै", "मन क्रम बचन ध्यान जो लावै"],
+    ["सब पर राम तपस्वी राजा", "तिन के काज सकल तुम साजा"],
+    ["और मनोरथ जो कोई लावै", "सोई अमित जीवन फल पावै"],
+    ["चारों जुग परताप तुम्हारा", "है परसिद्ध जगत उजियारा"],
+    ["साधु-संत के तुम रखवारे", "असुर निकंदन राम दुलारे"],
+    ["अष्ट सिद्धि नौ निधि के दाता", "अस बर दीन जानकी माता"],
+    ["राम रसायन तुम्हरे पासा", "सदा रहो रघुपति के दासा"],
+    ["तुम्हरे भजन राम को पावै", "जनम-जनम के दुख बिसरावै"],
+    ["अंत काल रघुबर पुर जाई", "जहाँ जन्म हरि-भक्त कहाई"],
+    ["और देवता चित्त न धरई", "हनुमत सेइ सर्ब सुख करई"],
+    ["संकट कटै मिटै सब पीरा", "जो सुमिरै हनुमत बलबीरा"],
+    ["जै जै जै हनुमान गोसाईं", "कृपा करहु गुरुदेव की नाईं"],
+    ["जो सत बार पाठ कर कोई", "छूटहि बंदि महा सुख होई"],
+    ["जो यह पढ़ै हनुमान चलीसा", "होय सिद्धि साखी गौरीसा"],
+    ["तुलसीदास सदा हरि चेरा", "कीजै नाथ हृदय महँ डेरा"]
+  ];
+
+  const DOHA_CLOSE = [
+    ["पवनतनय संकट हरन, मंगल मूरति रूप।",
+     "राम लखन सीता सहित, हृदय बसहु सुर भूप॥"]
+  ];
+
+  /* ================= STORAGE ================= */
+  const KEY = "hanuman_chalisa_total_v1";
+  let memCount = 0; // fallback if localStorage is blocked
+  function loadCount() {
+    try { return parseInt(localStorage.getItem(KEY), 10) || 0; }
+    catch (e) { return memCount; }
+  }
+  function saveCount(n) {
+    memCount = n;
+    try { localStorage.setItem(KEY, String(n)); } catch (e) {}
+  }
+
+  /* ================= HELPERS ================= */
+  const toDev = n => String(n).replace(/\d/g, d => "०१२३४५६७८९"[d]);
+  function el(tag, cls, html) {
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (html != null) e.innerHTML = html;
+    return e;
+  }
+  function verseSlide(label, lines) {
+    const s = el("section", "slide");
+    s.appendChild(el("div", "label", label));
+    const v = el("div", "verse");
+    lines.forEach(t => v.appendChild(el("span", "", t)));
+    s.appendChild(v);
+    return s;
+  }
+
+  /* ================= BUILD SLIDES ================= */
+  const track = document.getElementById("track");
+  const slides = [];
+
+  // intro
+  const intro = el("section", "slide");
+  intro.innerHTML =
+    '<div class="om">ॐ</div>' +
+    '<div class="title">श्री हनुमान चालीसा</div>' +
+    '<div class="sub">गोस्वामी तुलसीदास कृत</div>' +
+    '<div class="stats">' +
+      '<div class="stat"><div class="n" id="introTotal">0</div><div class="t">Times chanted</div></div>' +
+    '</div>' +
+    '<button class="primary" id="begin">Begin &nbsp;&rarr;</button>' +
+    '<div class="hint">Swipe left, press &rarr; / Space, or tap Next after reading each verse.<br>Reaching the last slide counts as one complete chant.</div>';
+  slides.push(intro);
+
+  DOHA_OPEN.forEach(l => slides.push(verseSlide("दोहा", l)));
+
+  CHAUPAI.forEach((l, i) => {
+    slides.push(verseSlide("चौपाई " + toDev(i + 1),
+      [l[0] + " ।", l[1] + " ॥"]));
+  });
+
+  DOHA_CLOSE.forEach(l => slides.push(verseSlide("दोहा", l)));
+
+  // end
+  const end = el("section", "slide");
+  end.innerHTML =
+    '<div class="om">॥ जय श्री राम ॥</div>' +
+    '<div class="title" style="font-size:clamp(1.8rem,6vw,3rem)">पाठ सम्पूर्ण हुआ</div>' +
+    '<div class="sub">सियावर रामचंद्र की जय &nbsp;·&nbsp; पवनसुत हनुमान की जय</div>' +
+    '<div class="counted">&#10003; This chant has been counted</div>' +
+    '<div class="stats">' +
+      '<div class="stat"><div class="n" id="endTotal">0</div><div class="t">Total chants</div></div>' +
+    '</div>' +
+    '<button class="primary" id="again">Chant again</button>' +
+    '<button class="ghost" id="reset">Reset total count</button>';
+  slides.push(end);
+
+  slides.forEach(s => track.appendChild(s));
+
+  /* ================= STATE ================= */
+  const LAST = slides.length - 1;
+  const FIRST_VERSE = 1;
+  const LAST_VERSE = LAST - 1;
+  let index = 0;
+  let countedThisRound = false;
+  let total = loadCount();
+
+  const $ = id => document.getElementById(id);
+  const prevBtn = $("prev"), nextBtn = $("next"), pos = $("pos"), bar = $("bar");
+
+  function renderCounts(animate) {
+    $("totalBadge").textContent = total;
+    $("introTotal").textContent = total;
+    $("endTotal").textContent = total;
+    if (animate) {
+      const b = $("badge");
+      b.classList.remove("bump"); void b.offsetWidth; b.classList.add("bump");
+    }
+  }
+
+  function go(i) {
+    index = Math.max(0, Math.min(LAST, i));
+    track.style.transform = "translateX(" + (-index * 100) + "%)";
+
+    // starting over (back on intro) arms the counter for the next full read
+    if (index === 0) countedThisRound = false;
+
+    // reaching the final slide = one complete chant
+    if (index === LAST && !countedThisRound) {
+      countedThisRound = true;
+      total += 1;
+      saveCount(total);
+      renderCounts(true);
+    }
+    updateChrome();
+  }
+
+  function updateChrome() {
+    prevBtn.disabled = index === 0;
+    nextBtn.disabled = index === LAST;
+    nextBtn.style.visibility = (index === 0 || index === LAST) ? "hidden" : "visible";
+    prevBtn.style.visibility = (index === 0) ? "hidden" : "visible";
+    if (index === 0) pos.textContent = "";
+    else if (index === LAST) pos.textContent = "Complete";
+    else pos.textContent = index + " / " + LAST_VERSE;
+    bar.style.width = (index / LAST * 100) + "%";
+  }
+
+  /* ================= EVENTS ================= */
+  nextBtn.addEventListener("click", () => go(index + 1));
+  prevBtn.addEventListener("click", () => go(index - 1));
+  $("begin").addEventListener("click", () => go(1));
+  $("again").addEventListener("click", () => { countedThisRound = false; go(0); setTimeout(() => go(1), 60); });
+  $("reset").addEventListener("click", () => {
+    if (confirm("Reset your total chant count to 0?")) {
+      total = 0; saveCount(0); renderCounts(false);
+    }
+  });
+
+  document.addEventListener("keydown", e => {
+    if (e.key === "ArrowRight" || e.key === " " || e.key === "Enter" || e.key === "PageDown") {
+      if (e.target.tagName === "BUTTON" && e.key !== "ArrowRight") return; // keep native button behaviour
+      e.preventDefault(); go(index + 1);
+    } else if (e.key === "ArrowLeft" || e.key === "PageUp") {
+      e.preventDefault(); go(index - 1);
+    } else if (e.key === "Home") { go(0); }
+  });
+
+  // swipe
+  let sx = 0, sy = 0, tracking = false;
+  const stage = document.querySelector(".stage");
+  stage.addEventListener("touchstart", e => {
+    const t = e.changedTouches[0]; sx = t.clientX; sy = t.clientY; tracking = true;
+  }, { passive: true });
+  stage.addEventListener("touchend", e => {
+    if (!tracking) return; tracking = false;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - sx, dy = t.clientY - sy;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.3) go(index + (dx < 0 ? 1 : -1));
+  }, { passive: true });
+
+  // keep counts in sync if the file is open in another tab
+  window.addEventListener("storage", e => {
+    if (e.key === KEY) { total = loadCount(); renderCounts(false); }
+  });
+
+  renderCounts(false);
+  go(0);
+})();
+</script>
+</body>
+</html>
